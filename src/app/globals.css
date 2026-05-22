@@ -1,0 +1,327 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --grain-opacity: 0.04;
+  --brand-green: #2e7d32;
+  --brand-green-deep: #14532d;
+  --brand-orange: #f97316;
+  --brand-orange-deep: #c2410c;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  background: #0a1f12;
+  color: #f3efe4;
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(249, 115, 22, 0.14), transparent 60%),
+    radial-gradient(900px 500px at -10% 30%, rgba(46, 125, 50, 0.18), transparent 60%),
+    radial-gradient(1000px 500px at 50% 110%, rgba(46, 125, 50, 0.12), transparent 60%),
+    #0a1f12;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a1f12;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #f97316, #c2410c);
+  border-radius: 8px;
+  border: 2px solid #0a1f12;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #fb923c, #ea580c);
+}
+
+/* Selection */
+::selection {
+  background: rgba(249, 115, 22, 0.4);
+  color: #fff;
+}
+
+/* Layered film grain */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.5'/></svg>");
+  opacity: var(--grain-opacity);
+  mix-blend-mode: overlay;
+}
+
+@layer components {
+  .glass {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.06),
+      rgba(255, 255, 255, 0.02)
+    );
+    backdrop-filter: blur(14px) saturate(160%);
+    -webkit-backdrop-filter: blur(14px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      0 30px 60px -30px rgba(0, 0, 0, 0.7);
+  }
+
+  .glass-strong {
+    background: linear-gradient(
+      135deg,
+      rgba(20, 54, 30, 0.9),
+      rgba(10, 31, 18, 0.78)
+    );
+    backdrop-filter: blur(22px) saturate(180%);
+    -webkit-backdrop-filter: blur(22px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  /* `gold-text` is the legacy class name used across pages — it now
+     renders the Avika orange-to-amber gradient instead of gold. */
+  .gold-text {
+    background: linear-gradient(
+      120deg,
+      #fed7aa 0%,
+      #fb923c 25%,
+      #f97316 50%,
+      #fb923c 75%,
+      #fed7aa 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: shine 6s linear infinite;
+  }
+
+  /* Optional pure-green gradient text, useful for the wordmark. */
+  .green-text {
+    background: linear-gradient(
+      120deg,
+      #6fb87b 0%,
+      #2e7d32 50%,
+      #14532d 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .gold-border {
+    position: relative;
+  }
+  .gold-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, #f97316, transparent 40%, transparent 60%, #2e7d32);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .btn-gold {
+    @apply relative inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-medium tracking-wide overflow-hidden transition-transform;
+    background: linear-gradient(120deg, #fb923c, #f97316 50%, #c2410c);
+    color: #ffffff;
+    box-shadow:
+      0 10px 30px -10px rgba(249, 115, 22, 0.6),
+      inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  }
+  .btn-gold:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      0 18px 45px -10px rgba(249, 115, 22, 0.75),
+      inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  }
+  .btn-gold::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.45) 50%, transparent 70%);
+    transform: translateX(-100%);
+    transition: transform 0.8s ease;
+  }
+  .btn-gold:hover::after {
+    transform: translateX(100%);
+  }
+
+  /* A green variant of the primary CTA — same shape, brand green. */
+  .btn-green {
+    @apply relative inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-medium tracking-wide overflow-hidden transition-transform;
+    background: linear-gradient(120deg, #3f9e51, #2e7d32 50%, #14532d);
+    color: #ffffff;
+    box-shadow:
+      0 10px 30px -10px rgba(46, 125, 50, 0.6),
+      inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  }
+  .btn-green:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      0 18px 45px -10px rgba(46, 125, 50, 0.75),
+      inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-medium tracking-wide border border-white/15 text-ink hover:bg-white/5 hover:border-gold-500/50 transition-all;
+  }
+
+  .section {
+    @apply max-w-7xl mx-auto px-6 md:px-10;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.3em] text-gold-400/90 font-semibold;
+  }
+  .eyebrow::before,
+  .eyebrow::after {
+    content: "";
+    width: 28px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #f97316, transparent);
+  }
+
+  .display {
+    @apply font-display tracking-tight;
+  }
+
+  .card-hover {
+    transition:
+      transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1),
+      box-shadow 0.5s ease,
+      border-color 0.5s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-6px);
+    border-color: rgba(249, 115, 22, 0.45);
+    box-shadow: 0 30px 70px -20px rgba(249, 115, 22, 0.28);
+  }
+}
+
+/* Marquee */
+.marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: 3rem;
+  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+.marquee-track {
+  flex-shrink: 0;
+  display: flex;
+  gap: 3rem;
+  min-width: 100%;
+  animation: marquee 30s linear infinite;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Reveal helper */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Tilt-on-hover container */
+.tilt {
+  transform-style: preserve-3d;
+  perspective: 1200px;
+}
+.tilt-inner {
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Smooth image loading */
+img[data-nimg] {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Focus ring for accessibility */
+:focus-visible {
+  outline: 2px solid rgba(249, 115, 22, 0.6);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Smooth link underline animation */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #f97316, transparent);
+  transition: width 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), left 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Pulse animation for interactive elements */
+@keyframes pulse-gold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(249, 115, 22, 0); }
+}
+.pulse-gold {
+  animation: pulse-gold 2s ease-in-out infinite;
+}
+
+/* Skeleton loading */
+@keyframes skeleton {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, rgba(255,255,255,0.02) 25%, rgba(255,255,255,0.08) 50%, rgba(255,255,255,0.02) 75%);
+  background-size: 200% 100%;
+  animation: skeleton 1.5s ease-in-out infinite;
+}
+
+/* Smooth page transitions */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
