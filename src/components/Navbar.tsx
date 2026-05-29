@@ -24,10 +24,15 @@ export default function Navbar() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const totalItems = useCart((s) => s.totalItems());
   const openCart = useCart((s) => s.open);
   const openSearch = useSearch((s) => s.open);
   const { data: session } = useSession();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 16);
@@ -46,9 +51,9 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={cn(
-        "fixed top-0 inset-x-0 z-50 transition-all duration-500",
+        "fixed top-0 inset-x-0 z-50 transition-all duration-300",
         scrolled
-          ? "py-3 bg-bg/70 backdrop-blur-xl border-b border-white/5"
+          ? "py-3 bg-bg/85 backdrop-blur-lg border-b border-ink/10 shadow-soft"
           : "py-5 bg-transparent",
       )}
     >
@@ -81,15 +86,15 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "relative px-4 py-2 text-sm tracking-wide transition-colors",
-                  active ? "text-gold-300" : "text-ink/80 hover:text-ink",
+                  "relative px-4 py-2 text-sm font-medium tracking-wide transition-colors",
+                  active ? "text-gold-700" : "text-ink-soft hover:text-ink",
                 )}
               >
                 {link.label}
                 {active && (
                   <motion.span
                     layoutId="nav-pill"
-                    className="absolute inset-0 -z-10 rounded-full bg-white/5 border border-gold-500/30"
+                    className="absolute inset-0 -z-10 rounded-full bg-gold-500/10 border border-gold-500/30"
                     transition={{ type: "spring", stiffness: 380, damping: 32 }}
                   />
                 )}
@@ -102,41 +107,43 @@ export default function Navbar() {
           <button
             aria-label="Search"
             onClick={openSearch}
-            className="p-2.5 rounded-full hover:bg-white/5 transition-colors text-ink/80 hover:text-ink"
+            className="p-2.5 rounded-full hover:bg-bg-soft transition-colors text-ink-soft hover:text-ink"
           >
             <Search size={18} />
           </button>
           <Link
             href={session ? "/account" : "/login"}
             aria-label="Account"
-            className="hidden sm:inline-flex p-2.5 rounded-full hover:bg-white/5 transition-colors text-ink/80 hover:text-ink"
+            className="hidden sm:inline-flex p-2.5 rounded-full hover:bg-bg-soft transition-colors text-ink-soft hover:text-ink"
           >
             {session ? <User size={18} /> : <LogIn size={18} />}
           </Link>
           <button
             onClick={openCart}
             aria-label="Cart"
-            className="relative p-2.5 rounded-full hover:bg-white/5 transition-colors text-ink/80 hover:text-ink"
+            className="relative p-2.5 rounded-full hover:bg-bg-soft transition-colors text-ink-soft hover:text-ink"
           >
             <ShoppingBag size={18} />
-            <AnimatePresence>
-              {totalItems > 0 && (
-                <motion.span
-                  key={totalItems}
-                  initial={{ scale: 0 }}
-                  animate={{ scale: 1 }}
-                  exit={{ scale: 0 }}
-                  className="absolute -top-0.5 -right-0.5 min-w-[18px] h-[18px] px-1 rounded-full bg-gold-500 text-white text-[10px] font-bold flex items-center justify-center shadow-gold-sm"
-                >
-                  {totalItems}
-                </motion.span>
-              )}
-            </AnimatePresence>
+            {mounted && (
+              <AnimatePresence>
+                {totalItems > 0 && (
+                  <motion.span
+                    key={totalItems}
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    exit={{ scale: 0 }}
+                    className="absolute -top-0.5 -right-0.5 min-w-[18px] h-[18px] px-1 rounded-full bg-gold-500 text-white text-[10px] font-bold flex items-center justify-center"
+                  >
+                    {totalItems}
+                  </motion.span>
+                )}
+              </AnimatePresence>
+            )}
           </button>
           <button
             onClick={() => setOpen((v) => !v)}
             aria-label="Menu"
-            className="lg:hidden p-2.5 rounded-full hover:bg-white/5 transition-colors text-ink/80 hover:text-ink"
+            className="lg:hidden p-2.5 rounded-full hover:bg-bg-soft transition-colors text-ink-soft hover:text-ink"
           >
             {open ? <X size={18} /> : <Menu size={18} />}
           </button>
@@ -149,21 +156,21 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -12 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
-            className="lg:hidden mt-3 mx-6 glass-strong rounded-2xl p-4 flex flex-col gap-1"
+            className="lg:hidden mt-3 mx-6 bg-bg-card border border-ink/10 shadow-soft-lg rounded-2xl p-4 flex flex-col gap-1"
           >
             {links.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-4 py-3 rounded-xl text-ink/90 hover:bg-white/5 hover:text-gold-300 transition-colors"
+                className="px-4 py-3 rounded-xl text-ink hover:bg-bg-soft hover:text-gold-700 transition-colors"
               >
                 {link.label}
               </Link>
             ))}
-            <div className="h-px bg-white/5 my-1" />
+            <div className="h-px bg-ink/10 my-1" />
             <Link
               href={session ? "/account" : "/login"}
-              className="px-4 py-3 rounded-xl text-ink/90 hover:bg-white/5 hover:text-gold-300 transition-colors flex items-center gap-2"
+              className="px-4 py-3 rounded-xl text-ink hover:bg-bg-soft hover:text-gold-700 transition-colors flex items-center gap-2"
             >
               {session ? <User size={16} /> : <LogIn size={16} />}
               {session ? "My Account" : "Sign In"}

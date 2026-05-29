@@ -13,7 +13,7 @@ export const categories: Category[] = [
     name: "Fruits & Vegetables",
     tagline: "Farm-fresh produce, delivered daily",
     image:
-      "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=400&q=75",
+      "/categories/fruits-vegetables.jpg",
     accent: "from-green-500/40 to-emerald-900/10",
     count: 156,
   },
@@ -22,7 +22,7 @@ export const categories: Category[] = [
     name: "Dairy & Eggs",
     tagline: "Fresh milk, paneer, curd & more",
     image:
-      "https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&w=400&q=75",
+      "/categories/dairy-eggs.jpg",
     accent: "from-sky-400/40 to-blue-900/10",
     count: 84,
   },
@@ -31,7 +31,7 @@ export const categories: Category[] = [
     name: "Staples & Grains",
     tagline: "Rice, atta, pulses & everyday essentials",
     image:
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=400&q=75",
+      "/categories/staples-grains.jpg",
     accent: "from-amber-500/40 to-yellow-900/10",
     count: 198,
   },
@@ -40,7 +40,7 @@ export const categories: Category[] = [
     name: "Cooking Oils & Ghee",
     tagline: "Pure oils for healthy cooking",
     image:
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=400&q=75",
+      "/categories/cooking-oils.jpg",
     accent: "from-yellow-500/40 to-orange-900/10",
     count: 62,
   },
@@ -49,7 +49,7 @@ export const categories: Category[] = [
     name: "Spices & Masalas",
     tagline: "Aromatic spices for authentic flavors",
     image:
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=400&q=75",
+      "/categories/spices-masalas.jpg",
     accent: "from-red-500/40 to-rose-900/10",
     count: 124,
   },
@@ -58,7 +58,7 @@ export const categories: Category[] = [
     name: "Snacks & Beverages",
     tagline: "Tea, coffee, biscuits & munchies",
     image:
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=400&q=75",
+      "/categories/snacks-beverages.jpg",
     accent: "from-orange-500/40 to-amber-900/10",
     count: 215,
   },
@@ -67,7 +67,7 @@ export const categories: Category[] = [
     name: "Bakery & Breads",
     tagline: "Freshly baked goodness every day",
     image:
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&q=75",
+      "/categories/bakery-breads.jpg",
     accent: "from-amber-400/40 to-yellow-900/10",
     count: 78,
   },
@@ -76,7 +76,7 @@ export const categories: Category[] = [
     name: "Household Essentials",
     tagline: "Cleaning, personal care & daily needs",
     image:
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=400&q=75",
+      "/categories/household-essentials.jpg",
     accent: "from-teal-500/40 to-cyan-900/10",
     count: 167,
   },
@@ -85,7 +85,7 @@ export const categories: Category[] = [
     name: "Frozen Foods",
     tagline: "Ready-to-cook meals & frozen veggies",
     image:
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=400&q=75",
+      "/categories/frozen-foods.jpg",
     accent: "from-blue-500/40 to-indigo-900/10",
     count: 92,
   },
@@ -94,7 +94,7 @@ export const categories: Category[] = [
     name: "Baby Care",
     tagline: "Diapers, food, and essentials for your little one",
     image:
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=400&q=75",
+      "/categories/baby-care.jpg",
     accent: "from-pink-400/40 to-rose-900/10",
     count: 56,
   },
@@ -103,7 +103,7 @@ export const categories: Category[] = [
     name: "Personal Care",
     tagline: "Skincare, hair care & hygiene",
     image:
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=400&q=75",
+      "/categories/personal-care.jpg",
     accent: "from-purple-400/40 to-violet-900/10",
     count: 143,
   },
@@ -112,7 +112,7 @@ export const categories: Category[] = [
     name: "Dry Fruits & Nuts",
     tagline: "Almonds, cashews, raisins & more",
     image:
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=400&q=75",
+      "/categories/dry-fruits.jpg",
     accent: "from-amber-600/40 to-brown-900/10",
     count: 48,
   },
@@ -121,7 +121,7 @@ export const categories: Category[] = [
     name: "Instant & Ready-to-Eat",
     tagline: "Noodles, soups, ready meals",
     image:
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=400&q=75",
+      "/categories/instant-food.jpg",
     accent: "from-red-400/40 to-orange-900/10",
     count: 87,
   },

@@ -29,7 +29,7 @@ export const products: Product[] = [
       "Naturally ripened bananas sourced directly from farms. Rich in potassium and perfect for breakfast or smoothies.",
     features: ["1 dozen (12 pcs)", "Naturally ripened", "No chemicals", "Farm fresh"],
     images: [
-      "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv001.jpg",
     ],
     badge: "Bestseller",
     stock: 200,
@@ -48,7 +48,7 @@ export const products: Product[] = [
       "Premium Shimla apples handpicked from Himalayan orchards. Crisp, juicy, and naturally sweet.",
     features: ["1 kg pack", "Handpicked quality", "Rich in fiber", "No wax coating"],
     images: [
-      "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv002.jpg",
     ],
     stock: 150,
     unit: "kg",
@@ -65,7 +65,7 @@ export const products: Product[] = [
       "Firm and ripe tomatoes perfect for curries, salads, and everyday cooking. Sourced from local farms.",
     features: ["500g pack", "Firm & ripe", "Locally sourced", "Pesticide-free"],
     images: [
-      "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv003.jpg",
     ],
     stock: 300,
     unit: "500g",
@@ -82,7 +82,7 @@ export const products: Product[] = [
       "Tender spinach leaves, washed and ready to cook. Rich in iron and perfect for palak paneer or smoothies.",
     features: ["250g bunch", "Pre-washed", "Rich in iron", "Farm fresh"],
     images: [
-      "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv004.jpg",
     ],
     badge: "New",
     stock: 120,
@@ -100,7 +100,7 @@ export const products: Product[] = [
       "Medium-sized onions essential for every Indian kitchen. Fresh, firm, and full of flavor.",
     features: ["1 kg pack", "Medium size", "Long shelf life", "Essential staple"],
     images: [
-      "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv005.jpg",
     ],
     stock: 500,
     unit: "kg",
@@ -117,7 +117,7 @@ export const products: Product[] = [
       "Versatile potatoes perfect for curries, fries, or any dish. Clean and ready to use.",
     features: ["1 kg pack", "Clean & sorted", "Versatile use", "No sprouts"],
     images: [
-      "https://images.unsplash.com/photo-1590165482129-1b8b27698780?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv006.jpg",
     ],
     stock: 400,
     unit: "kg",
@@ -134,7 +134,7 @@ export const products: Product[] = [
       "Crisp green bell peppers ideal for stir-fries, salads, and stuffed recipes.",
     features: ["250g pack", "Crisp & fresh", "Rich in Vitamin C", "Versatile use"],
     images: [
-      "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv007.jpg",
     ],
     stock: 180,
     unit: "250g",
@@ -151,7 +151,7 @@ export const products: Product[] = [
       "Sweet and crunchy carrots perfect for salads, juices, and cooking. Rich in beta-carotene.",
     features: ["500g pack", "Sweet & crunchy", "Rich in Vitamin A", "No pesticides"],
     images: [
-      "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv008.jpg",
     ],
     stock: 220,
     unit: "500g",
@@ -168,7 +168,7 @@ export const products: Product[] = [
       "Fresh and cool cucumbers, perfect for salads, raita, and healthy snacking.",
     features: ["500g pack", "Cool & refreshing", "Low calorie", "Hydrating"],
     images: [
-      "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv009.jpg",
     ],
     stock: 250,
     unit: "500g",
@@ -185,7 +185,7 @@ export const products: Product[] = [
       "Tight, white cauliflower heads perfect for gobi manchurian, aloo gobi, and parathas.",
     features: ["1 piece (~500g)", "Tight florets", "No spots", "Farm fresh"],
     images: [
-      "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv010.jpg",
     ],
     stock: 150,
     unit: "piece",
@@ -203,7 +203,7 @@ export const products: Product[] = [
       "Premium Alphonso mangoes from Ratnagiri. The king of mangoes with unmatched sweetness and aroma.",
     features: ["1 dozen box", "GI tagged", "Naturally ripened", "Export quality"],
     images: [
-      "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv011.jpg",
     ],
     badge: "Limited",
     stock: 50,
@@ -221,7 +221,7 @@ export const products: Product[] = [
       "Fresh green chillies to add heat to your dishes. Bright, firm, and aromatic.",
     features: ["100g pack", "Fresh & firm", "Medium spicy", "Essential condiment"],
     images: [
-      "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv012.jpg",
     ],
     stock: 400,
     unit: "100g",
@@ -238,7 +238,7 @@ export const products: Product[] = [
       "Fresh ginger root essential for cooking and tea. Strong aroma and medicinal properties.",
     features: ["200g pack", "Strong aroma", "Fresh root", "Multi-purpose"],
     images: [
-      "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv013.jpg",
     ],
     stock: 300,
     unit: "200g",
@@ -255,7 +255,7 @@ export const products: Product[] = [
       "Plump garlic bulbs with strong flavor. Essential for Indian cooking and health benefits.",
     features: ["250g pack", "Plump bulbs", "Strong flavor", "Immunity booster"],
     images: [
-      "https://images.unsplash.com/photo-1540148426945-6cf22a6b2571?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv014.jpg",
     ],
     stock: 280,
     unit: "250g",
@@ -272,7 +272,7 @@ export const products: Product[] = [
       "Tender lady fingers perfect for bhindi masala and stir-fries. Farm fresh and chemical-free.",
     features: ["250g pack", "Tender & fresh", "No chemicals", "Easy to cook"],
     images: [
-      "https://images.unsplash.com/photo-1604977042946-1eecc30f269e?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv015.jpg",
     ],
     stock: 160,
     unit: "250g",
@@ -289,7 +289,7 @@ export const products: Product[] = [
       "Fresh bottle gourd great for healthy cooking. Light, nutritious, and easy to digest.",
     features: ["1 piece (~700g)", "Light & nutritious", "Easy to digest", "Low calorie"],
     images: [
-      "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv016.jpg",
     ],
     stock: 130,
     unit: "piece",
@@ -306,7 +306,7 @@ export const products: Product[] = [
       "Juicy lemons for nimbu paani, cooking, and garnishing. Vitamin C powerhouse.",
     features: ["250g pack (~6 pcs)", "Juicy", "High Vitamin C", "Multi-use"],
     images: [
-      "https://images.unsplash.com/photo-1590502593747-42a996133562?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv017.jpg",
     ],
     stock: 350,
     unit: "250g",
@@ -323,7 +323,7 @@ export const products: Product[] = [
       "Fresh coriander leaves for garnishing and chutney. Aromatic and full of flavor.",
     features: ["1 bunch", "Fresh & aromatic", "For garnishing", "Chutney-ready"],
     images: [
-      "https://images.unsplash.com/photo-1592733172561-c600f4b79d56?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv018.jpg",
     ],
     stock: 400,
     unit: "bunch",
@@ -340,7 +340,7 @@ export const products: Product[] = [
       "Fresh sweet corn cobs perfect for grilling, boiling, or making corn soup.",
     features: ["2 cobs pack", "Sweet & tender", "High fiber", "Versatile"],
     images: [
-      "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv019.jpg",
     ],
     stock: 140,
     unit: "pack",
@@ -357,7 +357,7 @@ export const products: Product[] = [
       "Nutritious broccoli florets rich in vitamins and minerals. Great for stir-fries and soups.",
     features: ["250g pack", "Rich in nutrients", "Tight florets", "Superfood"],
     images: [
-      "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv020.jpg",
     ],
     badge: "New",
     stock: 100,
@@ -375,7 +375,7 @@ export const products: Product[] = [
       "Ruby-red pomegranates packed with antioxidants. Sweet, juicy, and incredibly nutritious.",
     features: ["500g (~2 pcs)", "Ruby red seeds", "Antioxidant rich", "Sweet & juicy"],
     images: [
-      "https://images.unsplash.com/photo-1541344999736-4f682d3aa7c9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv021.jpg",
     ],
     stock: 120,
     unit: "500g",
@@ -392,7 +392,7 @@ export const products: Product[] = [
       "Button mushrooms perfect for curries, pizzas, and continental dishes. Low calorie and high protein.",
     features: ["200g pack", "Button variety", "Low calorie", "High protein"],
     images: [
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv022.jpg",
     ],
     stock: 90,
     unit: "200g",
@@ -411,7 +411,7 @@ export const products: Product[] = [
       "Full cream pasteurized milk, fresh and nutritious. Perfect for tea, coffee, or drinking straight.",
     features: ["1 litre pack", "Full cream", "Pasteurized", "No preservatives"],
     images: [
-      "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv001.jpg",
     ],
     badge: "Bestseller",
     stock: 500,
@@ -429,7 +429,7 @@ export const products: Product[] = [
       "Soft and fresh cottage cheese made from pure milk. Ideal for paneer butter masala, tikka, and more.",
     features: ["200g block", "Made from pure milk", "Soft texture", "High protein"],
     images: [
-      "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv002.jpg",
     ],
     badge: "Bestseller",
     stock: 180,
@@ -447,7 +447,7 @@ export const products: Product[] = [
       "Fresh brown eggs from free-range hens. Rich in protein and perfect for breakfast.",
     features: ["12 eggs tray", "Free-range hens", "Brown eggs", "High protein"],
     images: [
-      "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv003.jpg",
     ],
     stock: 250,
     unit: "dozen",
@@ -464,7 +464,7 @@ export const products: Product[] = [
       "Thick and creamy curd made from fresh milk. Perfect for raita, lassi, or direct consumption.",
     features: ["400g cup", "Thick & creamy", "Probiotic rich", "No preservatives"],
     images: [
-      "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv004.jpg",
     ],
     stock: 300,
     unit: "400g",
@@ -481,7 +481,7 @@ export const products: Product[] = [
       "The taste of India. Creamy salted butter perfect for parathas, toast, and cooking.",
     features: ["100g pack", "Salted", "Made from cream", "Rich taste"],
     images: [
-      "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=1200&q=80",
+      "/products/de005.jpg",
     ],
     badge: "Bestseller",
     stock: 400,
@@ -499,7 +499,7 @@ export const products: Product[] = [
       "Processed cheese slices perfect for sandwiches, burgers, and grilling. Melts beautifully.",
     features: ["200g (10 slices)", "Easy melt", "Calcium rich", "No refrigeration needed"],
     images: [
-      "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=1200&q=80",
+      "/products/de006.jpg",
     ],
     stock: 200,
     unit: "200g",
@@ -516,7 +516,7 @@ export const products: Product[] = [
       "Low-fat toned milk for health-conscious families. All the nutrition, less fat.",
     features: ["1 litre pack", "Low fat", "Pasteurized", "Calcium rich"],
     images: [
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=1200&q=80",
+      "/products/de007.jpg",
     ],
     stock: 450,
     unit: "litre",
@@ -533,7 +533,7 @@ export const products: Product[] = [
       "Thick and creamy Greek yogurt with double the protein. Perfect for smoothie bowls and dips.",
     features: ["200g cup", "High protein", "Probiotic", "No artificial flavors"],
     images: [
-      "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=80",
+      "/products/de008.jpg",
     ],
     badge: "New",
     stock: 120,
@@ -551,7 +551,7 @@ export const products: Product[] = [
       "Refreshing mango lassi made with real fruit pulp and fresh curd. A perfect summer drink.",
     features: ["200ml bottle", "Real mango pulp", "Chilled", "Ready to drink"],
     images: [
-      "https://images.unsplash.com/photo-1571006682725-8be11a6b8099?auto=format&fit=crop&w=1200&q=80",
+      "/products/de009.jpg",
     ],
     stock: 350,
     unit: "200ml",
@@ -568,7 +568,7 @@ export const products: Product[] = [
       "Fresh dairy cream for cooking, desserts, and topping. Rich and smooth texture.",
     features: ["200ml pack", "25% fat", "Fresh & smooth", "Multi-purpose"],
     images: [
-      "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=1200&q=80",
+      "/products/de010.jpg",
     ],
     stock: 150,
     unit: "200ml",
@@ -585,7 +585,7 @@ export const products: Product[] = [
       "Refreshing spiced buttermilk with cumin and mint. A perfect digestive drink after meals.",
     features: ["200ml pack", "Spiced", "Probiotic", "Low calorie"],
     images: [
-      "https://images.unsplash.com/photo-1571006682725-8be11a6b8099?auto=format&fit=crop&w=1200&q=80",
+      "/products/de011.jpg",
     ],
     stock: 400,
     unit: "200ml",
@@ -602,7 +602,7 @@ export const products: Product[] = [
       "Shredded mozzarella cheese perfect for pizzas, pasta, and baking. Great melt and stretch.",
     features: ["200g pack", "Shredded", "Great stretch", "Pizza grade"],
     images: [
-      "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=1200&q=80",
+      "/products/de012.jpg",
     ],
     stock: 130,
     unit: "200g",
@@ -619,7 +619,7 @@ export const products: Product[] = [
       "Sweet and thick condensed milk for desserts. Essential for making gulab jamun, kheer, and cakes.",
     features: ["400g tin", "Sweetened", "Thick consistency", "For desserts"],
     images: [
-      "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=1200&q=80",
+      "/products/de013.jpg",
     ],
     badge: "Bestseller",
     stock: 250,
@@ -637,7 +637,7 @@ export const products: Product[] = [
       "Non-dairy whipping cream for cakes and desserts. Whips to stiff peaks easily.",
     features: ["500ml pack", "Easy to whip", "Stable peaks", "For baking"],
     images: [
-      "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=1200&q=80",
+      "/products/de014.jpg",
     ],
     stock: 80,
     unit: "500ml",
@@ -654,7 +654,7 @@ export const products: Product[] = [
       "Pure cow ghee made from organic milk. Traditional bilona method for authentic taste.",
     features: ["500ml jar", "Cow milk", "Bilona method", "Organic certified"],
     images: [
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=1200&q=80",
+      "/products/de015.jpg",
     ],
     stock: 140,
     unit: "500ml",
@@ -671,7 +671,7 @@ export const products: Product[] = [
       "Rich chocolate flavored milk drink. Chilled, ready to drink, and loved by kids.",
     features: ["200ml bottle", "Chocolate flavor", "Chilled", "Calcium rich"],
     images: [
-      "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=1200&q=80",
+      "/products/de016.jpg",
     ],
     stock: 300,
     unit: "200ml",
@@ -688,7 +688,7 @@ export const products: Product[] = [
       "Traditional kesar shrikhand made from hung curd. Sweet, creamy, and aromatic.",
     features: ["100g cup", "Kesar flavor", "Made from hung curd", "Traditional recipe"],
     images: [
-      "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=80",
+      "/products/de017.jpg",
     ],
     stock: 150,
     unit: "100g",
@@ -705,7 +705,7 @@ export const products: Product[] = [
       "Fresh white eggs from healthy hens. Ideal for baking, omelets, and everyday cooking.",
     features: ["12 eggs tray", "White eggs", "Fresh daily", "Protein rich"],
     images: [
-      "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=1200&q=80",
+      "/products/de018.jpg",
     ],
     stock: 300,
     unit: "dozen",
@@ -722,7 +722,7 @@ export const products: Product[] = [
       "Premium malai paneer with extra soft texture. Perfect for restaurant-style dishes at home.",
     features: ["200g block", "Malai quality", "Extra soft", "Premium"],
     images: [
-      "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=1200&q=80",
+      "/products/de019.jpg",
     ],
     badge: "Exclusive",
     stock: 100,
@@ -740,7 +740,7 @@ export const products: Product[] = [
       "Fresh khoya for making sweets at home. Essential for gulab jamun, peda, and barfi.",
     features: ["250g pack", "Fresh made", "For sweets", "Pure milk"],
     images: [
-      "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=1200&q=80",
+      "/products/de020.jpg",
     ],
     stock: 90,
     unit: "250g",
@@ -757,7 +757,7 @@ export const products: Product[] = [
       "Probiotic fermented milk drink with 6.5 billion live bacteria. Supports gut health daily.",
     features: ["5 bottles pack", "6.5B probiotics", "Gut health", "Daily dose"],
     images: [
-      "https://images.unsplash.com/photo-1571006682725-8be11a6b8099?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv018.jpg",
     ],
     stock: 200,
     unit: "pack",
@@ -774,7 +774,7 @@ export const products: Product[] = [
       "Thick hung curd perfect for making dips, marinades, and shrikhand at home.",
     features: ["200g cup", "Extra thick", "No water content", "Multi-purpose"],
     images: [
-      "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv019.jpg",
     ],
     stock: 160,
     unit: "200g",
@@ -794,7 +794,7 @@ export const products: Product[] = [
       "Aged basmati rice with long grains and aromatic fragrance. Perfect for biryani and pulao.",
     features: ["1 kg pack", "Extra long grain", "Aged 2 years", "Aromatic"],
     images: [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg001.jpg",
     ],
     badge: "Bestseller",
     stock: 350,
@@ -812,7 +812,7 @@ export const products: Product[] = [
       "100% whole wheat flour for soft rotis. Made from the finest wheat grains with high fiber content.",
     features: ["5 kg bag", "100% whole wheat", "High fiber", "Soft rotis"],
     images: [
-      "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg002.jpg",
     ],
     badge: "Bestseller",
     stock: 200,
@@ -830,7 +830,7 @@ export const products: Product[] = [
       "Unpolished toor dal rich in protein. Cooks fast and makes delicious dal tadka.",
     features: ["1 kg pack", "Unpolished", "High protein", "Fast cooking"],
     images: [
-      "https://images.unsplash.com/photo-1613743983303-b3e89f8a2b80?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg003.jpg",
     ],
     stock: 280,
     unit: "kg",
@@ -847,7 +847,7 @@ export const products: Product[] = [
       "Organic yellow moong dal, easy to digest and perfect for khichdi and dal preparations.",
     features: ["1 kg pack", "Organic certified", "Easy to digest", "High protein"],
     images: [
-      "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg004.jpg",
     ],
     badge: "New",
     stock: 190,
@@ -865,7 +865,7 @@ export const products: Product[] = [
       "Pure refined white sugar for everyday use. Perfect for tea, coffee, and cooking.",
     features: ["1 kg pack", "Refined", "Pure quality", "Free flowing"],
     images: [
-      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg005.jpg",
     ],
     stock: 600,
     unit: "kg",
@@ -882,7 +882,7 @@ export const products: Product[] = [
       "Premium split chickpea dal, nutty flavor. Great for dal fry, chana dal, and sweets.",
     features: ["1 kg pack", "Premium quality", "Nutty flavor", "Versatile use"],
     images: [
-      "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=1200&q=80",
+      "/products/de007.jpg",
     ],
     stock: 250,
     unit: "kg",
@@ -899,7 +899,7 @@ export const products: Product[] = [
       "Quick-cooking red lentils with mild flavor. Perfect for soups, dal, and healthy meals.",
     features: ["1 kg pack", "Quick cooking", "High protein", "Iron rich"],
     images: [
-      "https://images.unsplash.com/photo-1613743983303-b3e89f8a2b80?auto=format&fit=crop&w=1200&q=80",
+      "/products/de008.jpg",
     ],
     stock: 220,
     unit: "kg",
@@ -916,7 +916,7 @@ export const products: Product[] = [
       "Premium red kidney beans from Jammu. Cooks to perfection for rajma chawal.",
     features: ["1 kg pack", "Jammu variety", "Organic", "Large grains"],
     images: [
-      "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=1200&q=80",
+      "/products/de009.jpg",
     ],
     stock: 180,
     unit: "kg",
@@ -933,7 +933,7 @@ export const products: Product[] = [
       "Lightweight everyday rice with low starch. Perfect for daily meals, fried rice, and south Indian dishes.",
     features: ["1 kg pack", "Low starch", "Lightweight", "Daily use"],
     images: [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1200&q=80",
+      "/products/de010.jpg",
     ],
     stock: 400,
     unit: "kg",
@@ -950,7 +950,7 @@ export const products: Product[] = [
       "Medium thickness flattened rice for making poha. Light breakfast option that's quick and easy.",
     features: ["500g pack", "Medium thick", "Quick cooking", "Light meal"],
     images: [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1200&q=80",
+      "/products/de011.jpg",
     ],
     stock: 280,
     unit: "500g",
@@ -967,7 +967,7 @@ export const products: Product[] = [
       "Fine gram flour for pakoras, besan ladoo, and kadhi. Smooth texture and authentic taste.",
     features: ["500g pack", "Fine texture", "No additives", "Multi-purpose"],
     images: [
-      "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=1200&q=80",
+      "/products/de012.jpg",
     ],
     stock: 300,
     unit: "500g",
@@ -984,7 +984,7 @@ export const products: Product[] = [
       "Split urad dal for making dal makhani, idli batter, and dosa. Rich and creamy.",
     features: ["1 kg pack", "Split variety", "Creamy texture", "High protein"],
     images: [
-      "https://images.unsplash.com/photo-1613743983303-b3e89f8a2b80?auto=format&fit=crop&w=1200&q=80",
+      "/products/de013.jpg",
     ],
     stock: 200,
     unit: "kg",
@@ -1001,7 +1001,7 @@ export const products: Product[] = [
       "Fine refined flour for making naan, bhaturas, cakes, and pastries. Smooth and silky texture.",
     features: ["1 kg pack", "Fine texture", "For baking", "Silky smooth"],
     images: [
-      "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=1200&q=80",
+      "/products/de014.jpg",
     ],
     stock: 350,
     unit: "kg",
@@ -1018,7 +1018,7 @@ export const products: Product[] = [
       "Medium-grain semolina for halwa, upma, and rava dosa. Quick-cooking breakfast staple.",
     features: ["500g pack", "Medium grain", "Quick cooking", "Versatile"],
     images: [
-      "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=1200&q=80",
+      "/products/de016.jpg",
     ],
     stock: 280,
     unit: "500g",
@@ -1035,7 +1035,7 @@ export const products: Product[] = [
       "Large white chickpeas for chole bhature and salads. Soaks well and cooks evenly.",
     features: ["1 kg pack", "Large grains", "White variety", "Even cooking"],
     images: [
-      "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=1200&q=80",
+      "/products/de015.jpg",
     ],
     stock: 200,
     unit: "kg",
@@ -1052,7 +1052,7 @@ export const products: Product[] = [
       "Healthy broken wheat for upma and kheer. High in fiber and great for weight management.",
     features: ["500g pack", "High fiber", "Healthy choice", "Quick cooking"],
     images: [
-      "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=1200&q=80",
+      "/products/de017.jpg",
     ],
     stock: 180,
     unit: "500g",
@@ -1069,7 +1069,7 @@ export const products: Product[] = [
       "Whole grain rolled oats for a healthy breakfast. High in fiber and heart-healthy.",
     features: ["1 kg pack", "Whole grain", "High fiber", "Heart healthy"],
     images: [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1200&q=80",
+      "/products/de018.jpg",
     ],
     badge: "New",
     stock: 250,
@@ -1087,7 +1087,7 @@ export const products: Product[] = [
       "Pure organic jaggery as a healthier alternative to sugar. Rich in iron and minerals.",
     features: ["500g block", "Organic", "Iron rich", "Natural sweetener"],
     images: [
-      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1200&q=80",
+      "/products/de019.jpg",
     ],
     stock: 200,
     unit: "500g",
@@ -1104,7 +1104,7 @@ export const products: Product[] = [
       "Pure rock salt with natural minerals. Essential for fasting and everyday cooking.",
     features: ["1 kg pack", "Natural minerals", "Fasting grade", "Unprocessed"],
     images: [
-      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg019.jpg",
     ],
     stock: 350,
     unit: "kg",
@@ -1122,7 +1122,7 @@ export const products: Product[] = [
       "Blend of 6 grains for extra nutrition in your rotis. Healthier choice for the whole family.",
     features: ["5 kg bag", "6 grain blend", "High fiber", "Extra nutrition"],
     images: [
-      "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg020.jpg",
     ],
     stock: 150,
     unit: "5kg",
@@ -1139,7 +1139,7 @@ export const products: Product[] = [
       "India's trusted iodized salt for everyday cooking. Vacuum evaporated for purity.",
     features: ["1 kg pack", "Iodized", "Vacuum evaporated", "Pure & hygienic"],
     images: [
-      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg021.jpg",
     ],
     badge: "Bestseller",
     stock: 800,
@@ -1157,7 +1157,7 @@ export const products: Product[] = [
       "Premium quality sabudana for khichdi and vada. Perfect for fasting days.",
     features: ["500g pack", "Large pearls", "Quick soak", "Fasting special"],
     images: [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg022.jpg",
     ],
     stock: 200,
     unit: "500g",
@@ -1176,7 +1176,7 @@ export const products: Product[] = [
       "Light and healthy sunflower oil with high smoke point. Perfect for everyday cooking and frying.",
     features: ["1 litre bottle", "Light & healthy", "High smoke point", "Vitamin E rich"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv020.jpg",
     ],
     badge: "Bestseller",
     stock: 320,
@@ -1194,7 +1194,7 @@ export const products: Product[] = [
       "Traditional cold-pressed mustard oil with authentic pungent flavor. Essential for pickles and North Indian cooking.",
     features: ["1 litre tin", "Cold pressed", "Kachi Ghani", "Traditional taste"],
     images: [
-      "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv021.jpg",
     ],
     stock: 240,
     unit: "litre",
@@ -1212,7 +1212,7 @@ export const products: Product[] = [
       "Premium quality pure desi ghee made from fresh cream. Rich aroma and authentic taste for all your dishes.",
     features: ["500ml jar", "Made from cream", "Rich aroma", "No preservatives"],
     images: [
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv022.jpg",
     ],
     badge: "Bestseller",
     stock: 180,
@@ -1230,7 +1230,7 @@ export const products: Product[] = [
       "Cold-pressed extra virgin olive oil from Spain. Perfect for salads, dips, and light cooking.",
     features: ["500ml bottle", "Extra virgin", "Cold pressed", "Imported"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv001.jpg",
     ],
     stock: 100,
     unit: "500ml",
@@ -1247,7 +1247,7 @@ export const products: Product[] = [
       "Cold-pressed groundnut oil with rich nutty flavor. Ideal for Gujarati and Maharashtrian cooking.",
     features: ["1 litre bottle", "Cold pressed", "Nutty flavor", "Traditional"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/co005.jpg",
     ],
     stock: 180,
     unit: "litre",
@@ -1264,7 +1264,7 @@ export const products: Product[] = [
       "Pure virgin coconut oil for cooking and hair care. Cold-pressed with natural coconut aroma.",
     features: ["500ml bottle", "Virgin", "Cold pressed", "Multi-purpose"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/co006.jpg",
     ],
     badge: "Bestseller",
     stock: 250,
@@ -1282,7 +1282,7 @@ export const products: Product[] = [
       "Heart-healthy rice bran oil with balanced fatty acids. Light and ideal for daily cooking.",
     features: ["1 litre bottle", "Heart healthy", "Light", "Balanced omega"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/co007.jpg",
     ],
     stock: 200,
     unit: "litre",
@@ -1299,7 +1299,7 @@ export const products: Product[] = [
       "Refined soybean oil rich in omega-3. Economical and suitable for all types of cooking.",
     features: ["1 litre bottle", "Omega-3 rich", "Economical", "All-purpose"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/co008.jpg",
     ],
     stock: 300,
     unit: "litre",
@@ -1316,7 +1316,7 @@ export const products: Product[] = [
       "Premium cold-pressed sesame oil with rich aroma. Essential for South Indian cooking and pickles.",
     features: ["500ml bottle", "Cold pressed", "Aromatic", "Traditional"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/co009.jpg",
     ],
     stock: 140,
     unit: "500ml",
@@ -1333,7 +1333,7 @@ export const products: Product[] = [
       "Low saturated fat canola oil imported from Canada. Light and neutral flavor for all cuisines.",
     features: ["1 litre bottle", "Low saturated fat", "Imported", "Neutral flavor"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/co010.jpg",
     ],
     badge: "New",
     stock: 80,
@@ -1351,7 +1351,7 @@ export const products: Product[] = [
       "Cold-pressed organic flaxseed oil rich in omega-3. Ideal for salad dressings and smoothies.",
     features: ["250ml bottle", "Organic", "Omega-3 rich", "Cold pressed"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/co011.jpg",
     ],
     stock: 60,
     unit: "250ml",
@@ -1368,7 +1368,7 @@ export const products: Product[] = [
       "Pure buffalo ghee with rich taste and golden color. Traditional process for authentic flavor.",
     features: ["500ml jar", "Buffalo milk", "Golden color", "Rich taste"],
     images: [
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg021.jpg",
     ],
     stock: 120,
     unit: "500ml",
@@ -1385,7 +1385,7 @@ export const products: Product[] = [
       "Vegetable ghee for deep frying and baking. Gives authentic taste to puris and sweets.",
     features: ["1 kg tin", "For deep frying", "Vegetable based", "Traditional taste"],
     images: [
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg022.jpg",
     ],
     stock: 200,
     unit: "kg",
@@ -1402,7 +1402,7 @@ export const products: Product[] = [
       "Premium avocado oil with high smoke point. Perfect for grilling, roasting, and dressings.",
     features: ["250ml bottle", "High smoke point", "Imported", "Keto friendly"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/co014.jpg",
     ],
     badge: "Exclusive",
     stock: 40,
@@ -1421,7 +1421,7 @@ export const products: Product[] = [
       "Value pack sunflower oil for the whole family. Light, healthy, and economical.",
     features: ["5 litre can", "Family pack", "Economical", "Value for money"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg019.jpg",
     ],
     stock: 150,
     unit: "5L",
@@ -1438,7 +1438,7 @@ export const products: Product[] = [
       "Olive pomace oil suitable for Indian cooking and frying. High smoke point with mild flavor.",
     features: ["1 litre bottle", "For frying", "High smoke point", "Mild flavor"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg020.jpg",
     ],
     stock: 110,
     unit: "litre",
@@ -1455,7 +1455,7 @@ export const products: Product[] = [
       "Cold-pressed walnut oil for salads and finishing. Rich in omega-3 and antioxidants.",
     features: ["200ml bottle", "Cold pressed", "Omega-3", "Finishing oil"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv002.jpg",
     ],
     stock: 50,
     unit: "200ml",
@@ -1473,7 +1473,7 @@ export const products: Product[] = [
       "Family pack kachi ghani mustard oil. Strong pungent aroma for authentic North Indian meals.",
     features: ["5 litre tin", "Family pack", "Kachi Ghani", "Strong aroma"],
     images: [
-      "https://images.unsplash.com/photo-1620574387735-3624d75b2dbc?auto=format&fit=crop&w=1200&q=80",
+      "/products/de007.jpg",
     ],
     stock: 100,
     unit: "5L",
@@ -1490,7 +1490,7 @@ export const products: Product[] = [
       "Pure coconut cooking oil for South Indian dishes. Adds authentic coconut flavor to your food.",
     features: ["1 litre bottle", "Pure coconut", "For cooking", "South Indian style"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/de008.jpg",
     ],
     stock: 220,
     unit: "litre",
@@ -1507,7 +1507,7 @@ export const products: Product[] = [
       "Heart-healthy blended oil with LOSORB technology. Absorbs less oil in your food for healthier meals.",
     features: ["1 litre bottle", "Heart healthy", "LOSORB tech", "Less oil absorption"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/de009.jpg",
     ],
     stock: 250,
     unit: "litre",
@@ -1524,7 +1524,7 @@ export const products: Product[] = [
       "Premium A2 ghee from Gir cow milk. Bilona method, hand-churned for maximum nutrition.",
     features: ["500ml jar", "A2 milk", "Gir cow", "Hand churned"],
     images: [
-      "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=1200&q=80",
+      "/products/de010.jpg",
     ],
     badge: "Exclusive",
     stock: 45,
@@ -1542,7 +1542,7 @@ export const products: Product[] = [
       "Zero calorie cooking spray for non-stick cooking. Perfect for portion control and healthy meals.",
     features: ["200ml spray", "Zero calorie", "Non-stick", "Portion control"],
     images: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1200&q=80",
+      "/products/de011.jpg",
     ],
     badge: "New",
     stock: 70,
@@ -1562,7 +1562,7 @@ export const products: Product[] = [
       "Pure and aromatic turmeric powder with high curcumin content. Essential for every Indian kitchen.",
     features: ["100g pack", "High curcumin", "Pure quality", "No artificial color"],
     images: [
-      "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm001.jpg",
     ],
     badge: "Bestseller",
     stock: 400,
@@ -1580,7 +1580,7 @@ export const products: Product[] = [
       "Premium quality red chilli powder with perfect heat and vibrant color for all your spicy dishes.",
     features: ["100g pack", "Medium spicy", "Vibrant color", "Pure quality"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm002.jpg",
     ],
     stock: 350,
     unit: "100g",
@@ -1597,7 +1597,7 @@ export const products: Product[] = [
       "Aromatic blend of whole spices ground fresh. The finishing touch for curries and biryanis.",
     features: ["100g pack", "Freshly ground", "Aromatic blend", "No additives"],
     images: [
-      "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=80",
+      "/products/de006.jpg",
     ],
     badge: "Bestseller",
     stock: 280,
@@ -1615,7 +1615,7 @@ export const products: Product[] = [
       "Whole cumin seeds with strong aroma. Essential for tadka and tempering in Indian cooking.",
     features: ["200g pack", "Whole seeds", "Strong aroma", "Premium quality"],
     images: [
-      "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm004.jpg",
     ],
     stock: 220,
     unit: "200g",
@@ -1632,7 +1632,7 @@ export const products: Product[] = [
       "Fresh ground coriander powder with mild, earthy flavor. A base spice for all Indian gravies.",
     features: ["100g pack", "Freshly ground", "Earthy flavor", "Pure quality"],
     images: [
-      "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv018.jpg",
     ],
     stock: 300,
     unit: "100g",
@@ -1649,7 +1649,7 @@ export const products: Product[] = [
       "Premium whole black peppercorns with intense flavor. The king of spices for seasoning.",
     features: ["100g pack", "Whole peppercorns", "Intense flavor", "Premium grade"],
     images: [
-      "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv019.jpg",
     ],
     stock: 180,
     unit: "100g",
@@ -1666,7 +1666,7 @@ export const products: Product[] = [
       "All-purpose spice blend for vegetables, dal, and curries. One masala for all dishes.",
     features: ["100g pack", "All-purpose", "Versatile", "Authentic blend"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv020.jpg",
     ],
     stock: 250,
     unit: "100g",
@@ -1683,7 +1683,7 @@ export const products: Product[] = [
       "Authentic biryani masala blend for restaurant-style biryani at home. Aromatic and flavorful.",
     features: ["50g pack", "Authentic blend", "Restaurant style", "Rich aroma"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv021.jpg",
     ],
     badge: "Bestseller",
     stock: 300,
@@ -1701,7 +1701,7 @@ export const products: Product[] = [
       "Tangy and spicy chaat masala for fruit salads, snacks, and street food flavors at home.",
     features: ["100g pack", "Tangy flavor", "For snacks", "Street food taste"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv022.jpg",
     ],
     stock: 350,
     unit: "100g",
@@ -1718,7 +1718,7 @@ export const products: Product[] = [
       "Black mustard seeds essential for South Indian tempering and pickle making.",
     features: ["200g pack", "Black variety", "For tempering", "Fresh & aromatic"],
     images: [
-      "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv001.jpg",
     ],
     stock: 280,
     unit: "200g",
@@ -1735,7 +1735,7 @@ export const products: Product[] = [
       "Whole cinnamon sticks with sweet woody aroma. Essential for biryani, tea, and desserts.",
     features: ["50g pack", "Whole sticks", "Sweet aroma", "Premium quality"],
     images: [
-      "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg021.jpg",
     ],
     stock: 150,
     unit: "50g",
@@ -1752,7 +1752,7 @@ export const products: Product[] = [
       "Green cardamom pods with intense fragrance. The queen of spices for tea, sweets, and biryanis.",
     features: ["25g pack", "Green pods", "Intense aroma", "Premium grade"],
     images: [
-      "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg022.jpg",
     ],
     badge: "Limited",
     stock: 100,
@@ -1770,7 +1770,7 @@ export const products: Product[] = [
       "Special blend for Mumbai-style pav bhaji. Just add veggies for authentic street food taste.",
     features: ["100g pack", "Mumbai style", "Ready blend", "Authentic taste"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/co014.jpg",
     ],
     stock: 220,
     unit: "100g",
@@ -1787,7 +1787,7 @@ export const products: Product[] = [
       "Traditional South Indian sambhar powder for authentic sambhar preparation.",
     features: ["100g pack", "South Indian", "Traditional recipe", "Aromatic"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/co009.jpg",
     ],
     stock: 200,
     unit: "100g",
@@ -1804,7 +1804,7 @@ export const products: Product[] = [
       "Mild heat with deep red color. Perfect for tandoori dishes and gravies that need color without excess heat.",
     features: ["100g pack", "Deep red color", "Mild heat", "For tandoori"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/co010.jpg",
     ],
     badge: "New",
     stock: 160,
@@ -1822,7 +1822,7 @@ export const products: Product[] = [
       "Dried bay leaves for aromatic tempering. Essential for biryanis, pulao, and gravies.",
     features: ["25g pack", "Dried leaves", "Aromatic", "For tempering"],
     images: [
-      "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm016.jpg",
     ],
     stock: 300,
     unit: "25g",
@@ -1839,7 +1839,7 @@ export const products: Product[] = [
       "Sweet and aromatic fennel seeds for mouth freshener and cooking. Aids digestion naturally.",
     features: ["200g pack", "Sweet aroma", "Digestive", "Dual use"],
     images: [
-      "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm017.jpg",
     ],
     stock: 220,
     unit: "200g",
@@ -1856,7 +1856,7 @@ export const products: Product[] = [
       "Smoky and spicy tandoori masala for marinades. Restaurant-style tandoori chicken at home.",
     features: ["100g pack", "Smoky flavor", "For marinades", "Restaurant style"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm018.jpg",
     ],
     stock: 200,
     unit: "100g",
@@ -1873,7 +1873,7 @@ export const products: Product[] = [
       "Whole cloves with intense aroma. Essential for biryani, tea, and garam masala preparations.",
     features: ["25g pack", "Whole cloves", "Intense flavor", "Medicinal properties"],
     images: [
-      "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm019.jpg",
     ],
     stock: 140,
     unit: "25g",
@@ -1890,7 +1890,7 @@ export const products: Product[] = [
       "Compounded asafoetida with strong aroma. A pinch transforms your dal and vegetables.",
     features: ["50g pack", "Strong aroma", "Compounded", "Essential spice"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/de020.jpg",
     ],
     stock: 250,
     unit: "50g",
@@ -1907,7 +1907,7 @@ export const products: Product[] = [
       "Special spice blend for finger-licking chicken curry. Authentic homestyle taste.",
     features: ["100g pack", "For chicken", "Homestyle taste", "Ready blend"],
     images: [
-      "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg019.jpg",
     ],
     stock: 280,
     unit: "100g",
@@ -1924,7 +1924,7 @@ export const products: Product[] = [
       "Whole fenugreek seeds for pickles and tempering. Known for health benefits and bitter flavor.",
     features: ["200g pack", "Whole seeds", "For pickles", "Health benefits"],
     images: [
-      "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg020.jpg",
     ],
     stock: 200,
     unit: "200g",
@@ -1943,7 +1943,7 @@ export const products: Product[] = [
       "15% long leaf blend for a richer, more aromatic cup of chai. Wake up to the taste of India.",
     features: ["500g pack", "15% long leaves", "Rich aroma", "Premium blend"],
     images: [
-      "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1200&q=80",
+      "/products/co005.jpg",
     ],
     badge: "Bestseller",
     stock: 450,
@@ -1961,7 +1961,7 @@ export const products: Product[] = [
       "100% pure coffee with rich taste and irresistible aroma. Just add hot water or milk.",
     features: ["200g jar", "100% pure coffee", "Instant", "Rich aroma"],
     images: [
-      "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=1200&q=80",
+      "/products/co006.jpg",
     ],
     badge: "Bestseller",
     stock: 320,
@@ -1979,7 +1979,7 @@ export const products: Product[] = [
       "India's favorite glucose biscuit since 1939. Perfect companion for your chai.",
     features: ["800g family pack", "Glucose biscuits", "Since 1939", "Value pack"],
     images: [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=1200&q=80",
+      "/products/co007.jpg",
     ],
     badge: "Bestseller",
     stock: 800,
@@ -1997,7 +1997,7 @@ export const products: Product[] = [
       "100% natural fruit juice with no added sugar. Refreshing blend of seasonal fruits.",
     features: ["1 litre pack", "No added sugar", "100% natural", "Mixed fruits"],
     images: [
-      "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=1200&q=80",
+      "/products/de020.jpg",
     ],
     stock: 200,
     unit: "litre",
@@ -2014,7 +2014,7 @@ export const products: Product[] = [
       "Crunchy and savory namkeen mix with nuts and sev. Perfect tea-time snack.",
     features: ["400g pack", "Crunchy & crispy", "Traditional recipe", "No MSG"],
     images: [
-      "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?auto=format&fit=crop&w=1200&q=80",
+      "/products/sb005.jpg",
     ],
     stock: 350,
     unit: "400g",
@@ -2031,7 +2031,7 @@ export const products: Product[] = [
       "Refreshing green tea with natural honey and lemon flavor. Antioxidant-rich for a healthy lifestyle.",
     features: ["25 tea bags", "Honey lemon flavor", "Antioxidant rich", "No calories"],
     images: [
-      "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm001.jpg",
     ],
     badge: "New",
     stock: 200,
@@ -2049,7 +2049,7 @@ export const products: Product[] = [
       "Crispy potato chips with classic salted flavor. Irresistible crunch in every bite.",
     features: ["90g pack", "Classic salted", "Crispy", "No trans fat"],
     images: [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm018.jpg",
     ],
     stock: 500,
     unit: "90g",
@@ -2066,7 +2066,7 @@ export const products: Product[] = [
       "Premium dark chocolate with 70% cocoa. Rich, intense, and perfectly bittersweet.",
     features: ["80g bar", "70% cocoa", "Premium dark", "Rich taste"],
     images: [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm002.jpg",
     ],
     stock: 180,
     unit: "80g",
@@ -2083,7 +2083,7 @@ export const products: Product[] = [
       "Crispy and spicy aloo bhujia namkeen. A beloved Indian snack for all occasions.",
     features: ["400g pack", "Crispy & spicy", "Traditional", "Tea-time favorite"],
     images: [
-      "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv012.jpg",
     ],
     stock: 400,
     unit: "400g",
@@ -2100,7 +2100,7 @@ export const products: Product[] = [
       "Mango drink made with real Alphonso mango pulp. Refreshing and loved by all ages.",
     features: ["200ml tetra pack", "Real mango pulp", "No preservatives", "Refreshing"],
     images: [
-      "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv013.jpg",
     ],
     stock: 600,
     unit: "200ml",
@@ -2117,7 +2117,7 @@ export const products: Product[] = [
       "Chocolate cream-filled biscuits with rich cocoa flavor. Perfect for snacking anytime.",
     features: ["150g pack", "Chocolate cream", "Cocoa biscuit", "Crunchy"],
     images: [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv014.jpg",
     ],
     stock: 350,
     unit: "150g",
@@ -2134,7 +2134,7 @@ export const products: Product[] = [
       "Sparkling soda water for mixing drinks and mocktails. Crisp and effervescent.",
     features: ["300ml bottle", "Sparkling", "For mixing", "Zero sugar"],
     images: [
-      "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv015.jpg",
     ],
     stock: 400,
     unit: "300ml",
@@ -2151,7 +2151,7 @@ export const products: Product[] = [
       "South Indian filter coffee blend with chicory. Makes authentic decoction for filter kaapi.",
     features: ["200g pack", "With chicory", "For filter coffee", "South Indian blend"],
     images: [
-      "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv016.jpg",
     ],
     stock: 250,
     unit: "200g",
@@ -2168,7 +2168,7 @@ export const products: Product[] = [
       "Light and crispy marie biscuits. Low in sugar and perfect for health-conscious snacking.",
     features: ["250g pack", "Light & crispy", "Low sugar", "Healthy option"],
     images: [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg019.jpg",
     ],
     stock: 450,
     unit: "250g",
@@ -2185,7 +2185,7 @@ export const products: Product[] = [
       "Crunchy corn puffs with tangy masala flavor. India's favorite crispy snack.",
     features: ["75g pack", "Masala flavor", "Crunchy puffs", "Fun snack"],
     images: [
-      "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg020.jpg",
     ],
     stock: 600,
     unit: "75g",
@@ -2202,7 +2202,7 @@ export const products: Product[] = [
       "Oral rehydration drink with electrolytes. Essential for summers and recovery.",
     features: ["200ml pack", "With electrolytes", "Orange flavor", "Rehydration"],
     images: [
-      "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg021.jpg",
     ],
     stock: 300,
     unit: "200ml",
@@ -2219,7 +2219,7 @@ export const products: Product[] = [
       "Whole wheat digestive biscuits with high fiber. A healthier biscuit choice for tea time.",
     features: ["250g pack", "Whole wheat", "High fiber", "Digestive"],
     images: [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg022.jpg",
     ],
     stock: 220,
     unit: "250g",
@@ -2236,7 +2236,7 @@ export const products: Product[] = [
       "Rich hot chocolate drinking powder. Just add hot milk for a comforting cup of cocoa.",
     features: ["200g jar", "Rich cocoa", "Instant mix", "Comforting"],
     images: [
-      "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=1200&q=80",
+      "/products/co014.jpg",
     ],
     stock: 150,
     unit: "200g",
@@ -2253,7 +2253,7 @@ export const products: Product[] = [
       "Crunchy roasted peanuts with a light salt coating. Protein-packed healthy snack.",
     features: ["200g pack", "Roasted", "Lightly salted", "High protein"],
     images: [
-      "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?auto=format&fit=crop&w=1200&q=80",
+      "/products/co009.jpg",
     ],
     stock: 280,
     unit: "200g",
@@ -2270,7 +2270,7 @@ export const products: Product[] = [
       "Strong cola with a bold taste. India's leading carbonated soft drink.",
     features: ["750ml bottle", "Strong cola", "Chilled", "Party size"],
     images: [
-      "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=1200&q=80",
+      "/products/co010.jpg",
     ],
     stock: 350,
     unit: "750ml",
@@ -2287,7 +2287,7 @@ export const products: Product[] = [
       "Instant masala chai premix with ginger and cardamom. Just add hot water for quick tea.",
     features: ["500g pack", "Instant premix", "Masala flavor", "Just add water"],
     images: [
-      "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1200&q=80",
+      "/products/co005.jpg",
     ],
     stock: 200,
     unit: "500g",
@@ -2304,7 +2304,7 @@ export const products: Product[] = [
       "Chocolate-coated protein bar with 20g protein. On-the-go nutrition for active lifestyles.",
     features: ["60g bar", "20g protein", "Chocolate coated", "On-the-go"],
     images: [
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=1200&q=80",
+      "/products/co006.jpg",
     ],
     badge: "New",
     stock: 180,
@@ -2324,7 +2324,7 @@ export const products: Product[] = [
       "Soft and fresh white bread, perfect for sandwiches and toast. Baked fresh daily.",
     features: ["400g loaf", "Soft & fresh", "No preservatives", "Baked daily"],
     images: [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv019.jpg",
     ],
     stock: 150,
     unit: "loaf",
@@ -2341,7 +2341,7 @@ export const products: Product[] = [
       "100% whole wheat bread with high fiber content. The healthier choice for your family.",
     features: ["400g loaf", "100% whole wheat", "High fiber", "No maida"],
     images: [
-      "https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv020.jpg",
     ],
     badge: "New",
     stock: 120,
@@ -2359,7 +2359,7 @@ export const products: Product[] = [
       "Soft dinner rolls perfect for pav bhaji, vada pav, and burgers. Freshly baked.",
     features: ["6 pieces pack", "Soft texture", "Fresh baked", "Multi-purpose"],
     images: [
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv021.jpg",
     ],
     stock: 180,
     unit: "pack",
@@ -2376,7 +2376,7 @@ export const products: Product[] = [
       "Crispy toast rusk with cardamom flavor. Perfect with tea or coffee.",
     features: ["300g pack", "Crispy texture", "Elaichi flavor", "Tea-time snack"],
     images: [
-      "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv022.jpg",
     ],
     stock: 250,
     unit: "300g",
@@ -2393,7 +2393,7 @@ export const products: Product[] = [
       "Bread made with 7 grains for extra nutrition. Packed with seeds and fiber.",
     features: ["400g loaf", "7 grains", "Seeds added", "Nutritious"],
     images: [
-      "https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv001.jpg",
     ],
     stock: 100,
     unit: "loaf",
@@ -2410,7 +2410,7 @@ export const products: Product[] = [
       "Flaky butter croissants baked with premium butter. Light, airy, and perfect for breakfast.",
     features: ["2 pieces pack", "Pure butter", "Flaky layers", "French style"],
     images: [
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv002.jpg",
     ],
     badge: "Exclusive",
     stock: 60,
@@ -2428,7 +2428,7 @@ export const products: Product[] = [
       "Pre-seasoned garlic bread ready to bake. Buttery, garlicky, and perfect with pasta.",
     features: ["200g pack", "Pre-seasoned", "Ready to bake", "Butter & garlic"],
     images: [
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv003.jpg",
     ],
     stock: 130,
     unit: "200g",
@@ -2445,7 +2445,7 @@ export const products: Product[] = [
       "Moist fruit cake loaded with dry fruits and tutti-frutti. A classic tea-time treat.",
     features: ["250g pack", "Loaded with fruits", "Moist texture", "Tea-time treat"],
     images: [
-      "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv004.jpg",
     ],
     stock: 180,
     unit: "250g",
@@ -2462,7 +2462,7 @@ export const products: Product[] = [
       "Sesame-topped burger buns, soft and sturdy. Perfect for homemade burgers.",
     features: ["4 buns pack", "Sesame topped", "Soft & sturdy", "Burger size"],
     images: [
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1200&q=80",
+      "/products/de009.jpg",
     ],
     stock: 150,
     unit: "pack",
@@ -2479,7 +2479,7 @@ export const products: Product[] = [
       "Ready-to-use thin crust pizza bases. Just add toppings and bake for homemade pizza.",
     features: ["2 bases pack", "Thin crust", "Ready to use", "7 inch size"],
     images: [
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1200&q=80",
+      "/products/de010.jpg",
     ],
     stock: 120,
     unit: "pack",
@@ -2496,7 +2496,7 @@ export const products: Product[] = [
       "Rich chocolate muffins with chocolate chips. Moist, fluffy, and irresistible.",
     features: ["2 pieces pack", "Double chocolate", "Moist & fluffy", "Fresh baked"],
     images: [
-      "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=1200&q=80",
+      "/products/de011.jpg",
     ],
     stock: 100,
     unit: "pack",
@@ -2513,7 +2513,7 @@ export const products: Product[] = [
       "Extra soft milk bread enriched with milk solids. Kids' favorite for sandwiches and snacks.",
     features: ["400g loaf", "Milk enriched", "Extra soft", "Kids favorite"],
     images: [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80",
+      "/products/de012.jpg",
     ],
     badge: "Bestseller",
     stock: 200,
@@ -2531,7 +2531,7 @@ export const products: Product[] = [
       "Brown sandwich bread with perfect square slices. Ideal for neat, trimmed sandwiches.",
     features: ["400g loaf", "Square slices", "Brown bread", "For sandwiches"],
     images: [
-      "https://images.unsplash.com/photo-1598373182133-52452f7691ef?auto=format&fit=crop&w=1200&q=80",
+      "/products/de013.jpg",
     ],
     stock: 160,
     unit: "loaf",
@@ -2548,7 +2548,7 @@ export const products: Product[] = [
       "Moist banana cake made with ripe bananas and walnuts. Homestyle goodness in every bite.",
     features: ["200g slice", "Real bananas", "With walnuts", "Homestyle"],
     images: [
-      "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=1200&q=80",
+      "/products/de014.jpg",
     ],
     stock: 70,
     unit: "200g",
@@ -2565,7 +2565,7 @@ export const products: Product[] = [
       "Soft hot dog rolls for frankie wraps and hot dogs. Versatile and easy to use.",
     features: ["4 rolls pack", "Soft texture", "For hot dogs", "Versatile"],
     images: [
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1200&q=80",
+      "/products/de015.jpg",
     ],
     stock: 140,
     unit: "pack",
@@ -2582,7 +2582,7 @@ export const products: Product[] = [
       "Flaky puff pastry biscuits lightly salted. Crispy layers that melt in your mouth with chai.",
     features: ["200g pack", "Puff pastry", "Lightly salted", "Crispy layers"],
     images: [
-      "https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=1200&q=80",
+      "/products/de016.jpg",
     ],
     stock: 300,
     unit: "200g",
@@ -2599,7 +2599,7 @@ export const products: Product[] = [
       "Italian herb focaccia topped with rosemary and olive oil. Artisan quality at home.",
     features: ["200g piece", "Italian herbs", "Olive oil", "Artisan style"],
     images: [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80",
+      "/products/de017.jpg",
     ],
     badge: "New",
     stock: 50,
@@ -2617,7 +2617,7 @@ export const products: Product[] = [
       "Crunchy bread sticks perfect with soups and dips. Lightly seasoned and baked.",
     features: ["150g pack", "Crunchy", "For dipping", "Lightly seasoned"],
     images: [
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1200&q=80",
+      "/products/de018.jpg",
     ],
     stock: 160,
     unit: "150g",
@@ -2634,7 +2634,7 @@ export const products: Product[] = [
       "Ready-to-heat tandoori naan bread. Soft, fluffy, and tastes like restaurant-style.",
     features: ["5 pieces pack", "Ready to heat", "Tandoori style", "Soft & fluffy"],
     images: [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80",
+      "/products/de019.jpg",
     ],
     stock: 120,
     unit: "pack",
@@ -2651,7 +2651,7 @@ export const products: Product[] = [
       "Flaky pastry roll filled with vanilla cream. A classic bakery favorite for all ages.",
     features: ["1 piece", "Vanilla cream", "Flaky pastry", "Classic treat"],
     images: [
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg005.jpg",
     ],
     stock: 250,
     unit: "piece",
@@ -2668,7 +2668,7 @@ export const products: Product[] = [
       "Artisan sourdough bread with tangy flavor and chewy crust. Naturally leavened for 24 hours.",
     features: ["400g loaf", "Naturally leavened", "24hr ferment", "Tangy flavor"],
     images: [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg019.jpg",
     ],
     badge: "Exclusive",
     stock: 40,
@@ -2686,7 +2686,7 @@ export const products: Product[] = [
       "Soft flour tortilla wraps for burritos, wraps, and rolls. Flexible and won't tear.",
     features: ["6 wraps pack", "Soft & flexible", "For wraps", "Won't tear"],
     images: [
-      "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg020.jpg",
     ],
     stock: 110,
     unit: "pack",
@@ -2705,7 +2705,7 @@ export const products: Product[] = [
       "Powerful dish wash gel that cuts through tough grease easily. Gentle on hands.",
     features: ["750ml bottle", "Removes grease", "Lemon fresh", "Gentle formula"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg022.jpg",
     ],
     badge: "Bestseller",
     stock: 280,
@@ -2723,7 +2723,7 @@ export const products: Product[] = [
       "Tough stain removal with refreshing fragrance. Works even in hard water.",
     features: ["1 kg pack", "Tough on stains", "Fresh fragrance", "For all fabrics"],
     images: [
-      "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?auto=format&fit=crop&w=1200&q=80",
+      "/products/co014.jpg",
     ],
     badge: "Bestseller",
     stock: 350,
@@ -2741,7 +2741,7 @@ export const products: Product[] = [
       "Disinfectant floor cleaner that kills 99.9% germs. Keeps floors shiny and germ-free.",
     features: ["975ml bottle", "Kills 99.9% germs", "Fresh fragrance", "All floor types"],
     images: [
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv010.jpg",
     ],
     stock: 220,
     unit: "975ml",
@@ -2758,7 +2758,7 @@ export const products: Product[] = [
       "Powerful toilet cleaner that removes tough stains and kills germs below the waterline.",
     features: ["500ml bottle", "10x cleaning power", "Removes stains", "Fresh scent"],
     images: [
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv011.jpg",
     ],
     stock: 300,
     unit: "500ml",
@@ -2775,7 +2775,7 @@ export const products: Product[] = [
       "Trusted protection against germs with moisturizing formula. Keeps hands soft and germ-free.",
     features: ["200ml pump", "Kills 99.9% germs", "Moisturizing", "Derma-tested"],
     images: [
-      "https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg001.jpg",
     ],
     stock: 400,
     unit: "200ml",
@@ -2792,7 +2792,7 @@ export const products: Product[] = [
       "Fabric conditioner that keeps clothes soft, fresh, and wrinkle-free all day long.",
     features: ["860ml bottle", "Softens fabric", "Fresh fragrance", "Anti-wrinkle"],
     images: [
-      "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?auto=format&fit=crop&w=1200&q=80",
+      "/products/de020.jpg",
     ],
     stock: 200,
     unit: "860ml",
@@ -2809,7 +2809,7 @@ export const products: Product[] = [
       "Streak-free glass cleaner for mirrors, windows, and glass surfaces. Sparkling clean finish.",
     features: ["500ml spray", "Streak-free", "Sparkling finish", "Multi-surface"],
     images: [
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv009.jpg",
     ],
     stock: 180,
     unit: "500ml",
@@ -2826,7 +2826,7 @@ export const products: Product[] = [
       "Electric mosquito repellent refill for peaceful sleep. Works all night, every night.",
     features: ["45ml refill", "All night protection", "Low smoke", "Odorless"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/de009.jpg",
     ],
     stock: 350,
     unit: "45ml",
@@ -2843,7 +2843,7 @@ export const products: Product[] = [
       "Tough on grease dish wash bar with lemon. Long-lasting and economical for daily use.",
     features: ["200g bar", "Anti-grease", "Lemon power", "Long lasting"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/de010.jpg",
     ],
     badge: "Bestseller",
     stock: 500,
@@ -2861,7 +2861,7 @@ export const products: Product[] = [
       "Long-lasting room freshener with floral fragrance. Keeps bathrooms and rooms fresh for weeks.",
     features: ["75g block", "Floral fragrance", "Lasts 30 days", "For all rooms"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/de011.jpg",
     ],
     stock: 300,
     unit: "75g",
@@ -2878,7 +2878,7 @@ export const products: Product[] = [
       "Liquid detergent for top-load washing machines. Dissolves completely with no residue.",
     features: ["1 litre bottle", "For machines", "No residue", "Easy dissolve"],
     images: [
-      "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?auto=format&fit=crop&w=1200&q=80",
+      "/products/de012.jpg",
     ],
     stock: 180,
     unit: "litre",
@@ -2895,7 +2895,7 @@ export const products: Product[] = [
       "Powerful kitchen cleaner that dissolves oil and grime. Makes kitchen surfaces shine.",
     features: ["500ml spray", "Dissolves grease", "For kitchen", "Easy spray"],
     images: [
-      "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=1200&q=80",
+      "/products/de013.jpg",
     ],
     stock: 150,
     unit: "500ml",
@@ -2912,7 +2912,7 @@ export const products: Product[] = [
       "Strong and leak-proof garbage bags for kitchen dustbins. Drawstring closure for easy disposal.",
     features: ["30 bags pack", "Medium size", "Leak-proof", "Drawstring"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/he013.jpg",
     ],
     stock: 250,
     unit: "pack",
@@ -2929,7 +2929,7 @@ export const products: Product[] = [
       "Multi-surface disinfectant spray that kills 99.9% germs. Safe for kitchen and baby areas.",
     features: ["450ml spray", "Multi-surface", "99.9% germ kill", "Safe formula"],
     images: [
-      "https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?auto=format&fit=crop&w=1200&q=80",
+      "/products/de017.jpg",
     ],
     badge: "New",
     stock: 160,
@@ -2947,7 +2947,7 @@ export const products: Product[] = [
       "Thick bleach cleaner for bathroom tiles and floor. Removes mold and tough stains.",
     features: ["500ml bottle", "Thick formula", "Removes mold", "Whitens tiles"],
     images: [
-      "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg002.jpg",
     ],
     stock: 220,
     unit: "500ml",
@@ -2964,7 +2964,7 @@ export const products: Product[] = [
       "Heavy-duty steel scrubber for tough cleaning. Removes burnt food and stubborn stains.",
     features: ["1 piece", "Heavy duty", "Long lasting", "For tough stains"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg003.jpg",
     ],
     stock: 400,
     unit: "piece",
@@ -2981,7 +2981,7 @@ export const products: Product[] = [
       "Moth repellent naphthalene balls for wardrobes. Keeps clothes fresh and insect-free.",
     features: ["100g pack", "Moth repellent", "For wardrobes", "Long lasting"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg004.jpg",
     ],
     stock: 280,
     unit: "100g",
@@ -2998,7 +2998,7 @@ export const products: Product[] = [
       "Microfiber mop refill for easy floor cleaning. Super absorbent and machine washable.",
     features: ["1 piece refill", "Microfiber", "Super absorbent", "Washable"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg005.jpg",
     ],
     stock: 100,
     unit: "piece",
@@ -3015,7 +3015,7 @@ export const products: Product[] = [
       "Fast-acting cockroach killer spray. Kills on contact and prevents re-infestation.",
     features: ["320ml spray", "Fast acting", "Kills on contact", "Long protection"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/co011.jpg",
     ],
     stock: 200,
     unit: "320ml",
@@ -3032,7 +3032,7 @@ export const products: Product[] = [
       "Food-grade aluminium foil for wrapping, baking, and storing food. Tear-resistant and hygienic.",
     features: ["9m roll", "Food grade", "Tear-resistant", "Multi-use"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg019.jpg",
     ],
     stock: 200,
     unit: "9m",
@@ -3049,7 +3049,7 @@ export const products: Product[] = [
       "Food-safe cling wrap for covering bowls and wrapping food. Keeps food fresh longer.",
     features: ["30m roll", "Food safe", "Clings well", "Fresh keeping"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg020.jpg",
     ],
     stock: 180,
     unit: "30m",
@@ -3066,7 +3066,7 @@ export const products: Product[] = [
       "Super absorbent paper towels for kitchen spills. Strong when wet, ideal for cleaning.",
     features: ["2 rolls pack", "Super absorbent", "Strong wet", "Kitchen use"],
     images: [
-      "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg021.jpg",
     ],
     stock: 150,
     unit: "pack",
@@ -3085,7 +3085,7 @@ export const products: Product[] = [
       "IQF frozen green peas picked at peak freshness. Ready to use in any recipe.",
     features: ["500g pack", "IQF processed", "No preservatives", "Farm fresh"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv022.jpg",
     ],
     badge: "Bestseller",
     stock: 250,
@@ -3103,7 +3103,7 @@ export const products: Product[] = [
       "Sweet corn kernels frozen at peak sweetness. Great for soups, salads, and stir-fries.",
     features: ["500g pack", "Sweet kernels", "Ready to cook", "Versatile"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/ff002.jpg",
     ],
     stock: 200,
     unit: "500g",
@@ -3120,7 +3120,7 @@ export const products: Product[] = [
       "Mix of carrots, beans, peas, and corn. Perfect for quick vegetable pulao and curries.",
     features: ["500g pack", "4 veggies mix", "Ready to cook", "Nutritious"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/de015.jpg",
     ],
     stock: 180,
     unit: "500g",
@@ -3137,7 +3137,7 @@ export const products: Product[] = [
       "Crispy aloo tikki with authentic Indian spices. Just heat and serve for a quick snack.",
     features: ["400g pack (8 pcs)", "Pre-seasoned", "Crispy outside", "Soft inside"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/ff004.jpg",
     ],
     badge: "Bestseller",
     stock: 200,
@@ -3155,7 +3155,7 @@ export const products: Product[] = [
       "Golden crispy french fries made from real potatoes. Restaurant-quality fries at home.",
     features: ["450g pack", "Real potatoes", "Extra crispy", "Ready to fry"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv002.jpg",
     ],
     badge: "Bestseller",
     stock: 300,
@@ -3173,7 +3173,7 @@ export const products: Product[] = [
       "Crispy samosas stuffed with spiced potato filling. Party-ready in minutes.",
     features: ["300g pack (6 pcs)", "Spiced filling", "Crispy pastry", "Party snack"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/co005.jpg",
     ],
     stock: 180,
     unit: "300g",
@@ -3190,7 +3190,7 @@ export const products: Product[] = [
       "Multi-layered frozen parathas ready to cook on tawa. Flaky and delicious in minutes.",
     features: ["5 parathas pack", "Multi-layered", "Tawa ready", "Flaky texture"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/co006.jpg",
     ],
     stock: 250,
     unit: "pack",
@@ -3207,7 +3207,7 @@ export const products: Product[] = [
       "Crispy chicken nuggets made from tender chicken breast. Kids' favorite snack.",
     features: ["300g pack", "Chicken breast", "Crispy coating", "Kid-friendly"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/co007.jpg",
     ],
     stock: 150,
     unit: "300g",
@@ -3224,7 +3224,7 @@ export const products: Product[] = [
       "Steamed veg momos with mixed vegetable filling. Serve with spicy chutney for a treat.",
     features: ["10 pcs pack", "Veg filling", "Steam or fry", "With chutney sachet"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/co008.jpg",
     ],
     badge: "New",
     stock: 180,
@@ -3242,7 +3242,7 @@ export const products: Product[] = [
       "Creamy vanilla ice cream made with real milk. Classic flavor loved by everyone.",
     features: ["500ml tub", "Real milk", "Creamy texture", "Classic vanilla"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/de019.jpg",
     ],
     badge: "Bestseller",
     stock: 200,
@@ -3260,7 +3260,7 @@ export const products: Product[] = [
       "Crispy veg spring rolls with cabbage and noodle filling. Perfect party appetizer.",
     features: ["300g pack (8 pcs)", "Crispy wrapper", "Veg filling", "Party appetizer"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm016.jpg",
     ],
     stock: 140,
     unit: "300g",
@@ -3277,7 +3277,7 @@ export const products: Product[] = [
       "Marinated paneer tikka ready to grill or microwave. Restaurant-style starter at home.",
     features: ["250g pack", "Pre-marinated", "Grill or microwave", "Restaurant style"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm017.jpg",
     ],
     badge: "Exclusive",
     stock: 100,
@@ -3295,7 +3295,7 @@ export const products: Product[] = [
       "Rich butterscotch ice cream with crunchy caramel pieces. A delightful indulgence.",
     features: ["700ml tub", "Caramel pieces", "Creamy", "Family size"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/sm018.jpg",
     ],
     stock: 150,
     unit: "700ml",
@@ -3312,7 +3312,7 @@ export const products: Product[] = [
       "Crispy breaded fish fingers made from quality fish fillets. Quick and tasty meal option.",
     features: ["250g pack", "Fish fillets", "Crispy breaded", "Quick cooking"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv012.jpg",
     ],
     stock: 100,
     unit: "250g",
@@ -3329,7 +3329,7 @@ export const products: Product[] = [
       "Ready-to-heat frozen chapatis for quick meals. Soft and fresh-like texture after heating.",
     features: ["10 chapati pack", "Ready to heat", "Soft texture", "Time saver"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv013.jpg",
     ],
     stock: 180,
     unit: "pack",
@@ -3346,7 +3346,7 @@ export const products: Product[] = [
       "Spiced chicken seekh kebabs ready to grill. Juicy and loaded with authentic flavors.",
     features: ["300g pack (6 pcs)", "Chicken", "Pre-spiced", "Grill or pan fry"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv014.jpg",
     ],
     stock: 120,
     unit: "300g",
@@ -3363,7 +3363,7 @@ export const products: Product[] = [
       "Frozen aloo paratha with spiced potato filling. Hot breakfast ready in 5 minutes.",
     features: ["4 parathas pack", "Aloo stuffed", "5 min breakfast", "Tawa ready"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv015.jpg",
     ],
     stock: 200,
     unit: "pack",
@@ -3380,7 +3380,7 @@ export const products: Product[] = [
       "Crispy veg burger patties with corn and peas. Restaurant-style burgers at home.",
     features: ["360g pack (4 pcs)", "Crispy coating", "Veg patty", "Easy to cook"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv016.jpg",
     ],
     stock: 160,
     unit: "360g",
@@ -3397,7 +3397,7 @@ export const products: Product[] = [
       "Traditional malai kulfi on a stick. Rich, dense, and loaded with dry fruits.",
     features: ["80ml stick", "Traditional recipe", "With dry fruits", "Creamy dense"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv017.jpg",
     ],
     stock: 300,
     unit: "piece",
@@ -3414,7 +3414,7 @@ export const products: Product[] = [
       "Crispy cheese balls with gooey cheese center. Irresistible party snack loved by all.",
     features: ["250g pack", "Cheese filled", "Crispy outside", "Gooey center"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv018.jpg",
     ],
     badge: "New",
     stock: 130,
@@ -3432,7 +3432,7 @@ export const products: Product[] = [
       "Ready-to-eat frozen dal makhani. Just heat and enjoy restaurant-quality dal at home.",
     features: ["300g pack", "Ready to eat", "Heat & serve", "Restaurant quality"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv019.jpg",
     ],
     stock: 100,
     unit: "300g",
@@ -3449,7 +3449,7 @@ export const products: Product[] = [
       "Succulent chicken tikka marinated in yogurt and spices. Microwave or grill for quick serving.",
     features: ["300g pack", "Yogurt marinated", "Smoky flavor", "Premium chicken"],
     images: [
-      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv020.jpg",
     ],
     badge: "Exclusive",
     stock: 80,
@@ -3470,7 +3470,7 @@ export const products: Product[] = [
       "Ultra-soft diapers with up to 12 hours of dryness. Gentle on baby's delicate skin.",
     features: ["66 count pack", "12 hr dryness", "Ultra soft", "Wetness indicator"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/de012.jpg",
     ],
     badge: "Bestseller",
     stock: 150,
@@ -3488,7 +3488,7 @@ export const products: Product[] = [
       "Gentle cleansing wipes with no harsh chemicals. Safe for baby's face, hands, and body.",
     features: ["72 wipes pack", "Alcohol-free", "Fragrance-free", "Gentle formula"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/de013.jpg",
     ],
     badge: "Bestseller",
     stock: 250,
@@ -3506,7 +3506,7 @@ export const products: Product[] = [
       "No more tears formula gentle on baby's eyes. Mild cleansing for soft baby hair.",
     features: ["200ml bottle", "No tears formula", "pH balanced", "Clinically proven"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg002.jpg",
     ],
     badge: "Bestseller",
     stock: 200,
@@ -3524,7 +3524,7 @@ export const products: Product[] = [
       "24-hour moisturizing lotion for baby's soft skin. Dermatologist tested and hypoallergenic.",
     features: ["200ml bottle", "24hr moisture", "Hypoallergenic", "Mild formula"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg019.jpg",
     ],
     stock: 180,
     unit: "200ml",
@@ -3541,7 +3541,7 @@ export const products: Product[] = [
       "Stage 1 baby cereal with iron and vitamins. First solid food for babies 6 months and above.",
     features: ["300g box", "Stage 1 (6+ months)", "Iron fortified", "Easy to digest"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg020.jpg",
     ],
     badge: "Bestseller",
     stock: 200,
@@ -3559,7 +3559,7 @@ export const products: Product[] = [
       "Gentle baby powder that absorbs excess moisture and keeps baby fresh and comfortable.",
     features: ["200g container", "Absorbs moisture", "Gentle fragrance", "Talc-free"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg021.jpg",
     ],
     stock: 250,
     unit: "200g",
@@ -3576,7 +3576,7 @@ export const products: Product[] = [
       "Pure mineral oil for baby massage. Locks in moisture and keeps skin soft and supple.",
     features: ["200ml bottle", "Pure mineral oil", "For massage", "Locks moisture"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv009.jpg",
     ],
     stock: 200,
     unit: "200ml",
@@ -3593,7 +3593,7 @@ export const products: Product[] = [
       "Herbal diaper rash cream with zinc oxide. Soothes and protects baby's sensitive skin.",
     features: ["50g tube", "Herbal formula", "Zinc oxide", "Soothes irritation"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv010.jpg",
     ],
     stock: 180,
     unit: "50g",
@@ -3610,7 +3610,7 @@ export const products: Product[] = [
       "Moisturizing baby soap bar with 1/4 moisturizing cream. Gentle enough for daily use.",
     features: ["75g bar", "Moisturizing", "pH neutral", "Hypoallergenic"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv011.jpg",
     ],
     stock: 300,
     unit: "75g",
@@ -3627,7 +3627,7 @@ export const products: Product[] = [
       "Infant formula milk for 0-6 months. Enriched with DHA, ARA, and essential nutrients.",
     features: ["400g tin", "0-6 months", "DHA enriched", "Immune support"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv018.jpg",
     ],
     stock: 100,
     unit: "400g",
@@ -3644,7 +3644,7 @@ export const products: Product[] = [
       "Tear-free baby body wash with natural ingredients. Certified toxin-free and gentle.",
     features: ["200ml bottle", "Tear-free", "Natural", "Toxin-free certified"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv019.jpg",
     ],
     badge: "New",
     stock: 150,
@@ -3662,7 +3662,7 @@ export const products: Product[] = [
       "Anti-colic baby feeding bottle with natural latch nipple. BPA-free and easy to clean.",
     features: ["260ml bottle", "Anti-colic valve", "BPA-free", "Natural latch"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv020.jpg",
     ],
     stock: 80,
     unit: "piece",
@@ -3680,7 +3680,7 @@ export const products: Product[] = [
       "Wonder Pants with bubble bed technology. Ultra-soft with up to 12 hours absorption.",
     features: ["50 count pack", "Bubble bed tech", "12 hr absorption", "Pant style"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv021.jpg",
     ],
     stock: 120,
     unit: "pack",
@@ -3697,7 +3697,7 @@ export const products: Product[] = [
       "Fortified baby rice cereal as first food. Smooth texture easy for babies to swallow.",
     features: ["300g box", "Rice based", "Iron fortified", "Smooth texture"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv022.jpg",
     ],
     stock: 180,
     unit: "300g",
@@ -3714,7 +3714,7 @@ export const products: Product[] = [
       "Natural mosquito repellent patches safe for babies. DEET-free with citronella and eucalyptus.",
     features: ["24 patches", "DEET-free", "Natural oils", "12 hr protection"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv001.jpg",
     ],
     stock: 200,
     unit: "pack",
@@ -3731,7 +3731,7 @@ export const products: Product[] = [
       "Mineral sunscreen for babies with SPF 20+. Physical UV protection without harsh chemicals.",
     features: ["50ml tube", "SPF 20+", "Mineral based", "Water resistant"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv002.jpg",
     ],
     stock: 120,
     unit: "50ml",
@@ -3748,7 +3748,7 @@ export const products: Product[] = [
       "Gentle liquid detergent specially formulated for baby clothes. Free from harsh chemicals.",
     features: ["500ml bottle", "For baby clothes", "Gentle formula", "No harsh chemicals"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv003.jpg",
     ],
     stock: 150,
     unit: "500ml",
@@ -3765,7 +3765,7 @@ export const products: Product[] = [
       "Herbal teething gel for gum pain relief. Safe and effective for teething babies.",
     features: ["10g tube", "Herbal formula", "Pain relief", "Safe for babies"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv004.jpg",
     ],
     stock: 200,
     unit: "10g",
@@ -3782,7 +3782,7 @@ export const products: Product[] = [
       "Traditional gripe water for colic and gas relief. Trusted by generations of parents.",
     features: ["130ml bottle", "For colic relief", "Ayurvedic", "Since 1851"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/de005.jpg",
     ],
     stock: 250,
     unit: "130ml",
@@ -3799,7 +3799,7 @@ export const products: Product[] = [
       "Orthodontic pacifier that supports natural oral development. BPA-free silicone.",
     features: ["2 pieces pack", "Orthodontic", "BPA-free", "0-6 months"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/de006.jpg",
     ],
     stock: 100,
     unit: "pack",
@@ -3816,7 +3816,7 @@ export const products: Product[] = [
       "Ultra-soft fleece blanket for newborns. Lightweight, warm, and perfect for swaddling.",
     features: ["1 piece", "Soft fleece", "Lightweight", "For newborns"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/de007.jpg",
     ],
     stock: 80,
     unit: "piece",
@@ -3833,7 +3833,7 @@ export const products: Product[] = [
       "Smooth apple puree for babies 6 months+. No added sugar or preservatives.",
     features: ["100g pouch", "No added sugar", "Smooth puree", "6+ months"],
     images: [
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+      "/products/de008.jpg",
     ],
     stock: 200,
     unit: "100g",
@@ -3852,7 +3852,7 @@ export const products: Product[] = [
       "Clinically proven anti-dandruff shampoo. Leaves hair clean, flake-free, and fresh.",
     features: ["340ml bottle", "Anti-dandruff", "Cool menthol", "Clinically proven"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/de012.jpg",
     ],
     badge: "Bestseller",
     stock: 250,
@@ -3870,7 +3870,7 @@ export const products: Product[] = [
       "Herbal face wash with neem and turmeric. Deep cleanses and prevents pimples.",
     features: ["150ml tube", "Neem & turmeric", "Anti-pimple", "Soap-free"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/de013.jpg",
     ],
     badge: "Bestseller",
     stock: 300,
@@ -3888,7 +3888,7 @@ export const products: Product[] = [
       "Herbal toothpaste with natural ingredients for complete oral care. Strong teeth and fresh breath.",
     features: ["200g tube", "Herbal formula", "Anti-cavity", "Fresh breath"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/de020.jpg",
     ],
     badge: "Bestseller",
     stock: 500,
@@ -3906,7 +3906,7 @@ export const products: Product[] = [
       "48-hour moisturizing body lotion with aloe vera. For smooth, hydrated skin all day.",
     features: ["400ml bottle", "48hr moisture", "Aloe vera", "Non-greasy"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg001.jpg",
     ],
     stock: 200,
     unit: "400ml",
@@ -3923,7 +3923,7 @@ export const products: Product[] = [
       "48-hour anti-perspirant deodorant with moisturizing cream. Keeps you fresh and confident.",
     features: ["150ml spray", "48hr freshness", "Anti-perspirant", "Moisturizing"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg002.jpg",
     ],
     stock: 280,
     unit: "150ml",
@@ -3940,7 +3940,7 @@ export const products: Product[] = [
       "Pure coconut hair oil for strong, shiny hair. India's most trusted hair oil brand.",
     features: ["300ml bottle", "100% coconut", "For strong hair", "No mineral oil"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg003.jpg",
     ],
     badge: "Bestseller",
     stock: 400,
@@ -3958,7 +3958,7 @@ export const products: Product[] = [
       "Lightweight sunscreen with SPF 50 PA+++ protection. Non-greasy and suitable for daily use.",
     features: ["50g tube", "SPF 50", "PA+++", "Non-greasy"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg004.jpg",
     ],
     stock: 180,
     unit: "50g",
@@ -3975,7 +3975,7 @@ export const products: Product[] = [
       "Rich lather shaving cream for a smooth, close shave. Protects against nicks and cuts.",
     features: ["195g tube", "Rich lather", "Smooth shave", "Skin protection"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg005.jpg",
     ],
     stock: 220,
     unit: "195g",
@@ -3992,7 +3992,7 @@ export const products: Product[] = [
       "Moisturizing beauty bar with 1/4 moisturizing cream. Doesn't dry out skin like soap can.",
     features: ["100g bar", "1/4 cream", "Moisturizing", "Mild & gentle"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/co011.jpg",
     ],
     stock: 500,
     unit: "100g",
@@ -4009,7 +4009,7 @@ export const products: Product[] = [
       "Soft bristle toothbrush for gentle cleaning. Cross-action bristles reach deep between teeth.",
     features: ["1 piece", "Soft bristles", "Cross-action", "Ergonomic grip"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg019.jpg",
     ],
     stock: 400,
     unit: "piece",
@@ -4026,7 +4026,7 @@ export const products: Product[] = [
       "Deep conditioning formula for smooth, silky hair. Reduces frizz and adds shine.",
     features: ["180ml bottle", "Anti-frizz", "Smooth & silky", "Deep conditioning"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg020.jpg",
     ],
     stock: 200,
     unit: "180ml",
@@ -4043,7 +4043,7 @@ export const products: Product[] = [
       "Rich moisturizing face cream for dry winter skin. Non-greasy with light fragrance.",
     features: ["100g jar", "Winter care", "Non-greasy", "Deep moisture"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg021.jpg",
     ],
     stock: 250,
     unit: "100g",
@@ -4060,7 +4060,7 @@ export const products: Product[] = [
       "5-blade cartridge refills for a close, comfortable shave. Precision trimmer on back.",
     features: ["4 cartridges", "5 blades", "Precision trimmer", "Lubrastrip"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv009.jpg",
     ],
     stock: 150,
     unit: "pack",
@@ -4077,7 +4077,7 @@ export const products: Product[] = [
       "Pure petroleum jelly for dry skin, lips, and minor cuts. Multi-purpose skin protectant.",
     features: ["100g jar", "Pure formula", "Multi-purpose", "Derma-tested"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv010.jpg",
     ],
     stock: 350,
     unit: "100g",
@@ -4094,7 +4094,7 @@ export const products: Product[] = [
       "Intensive moisture hand cream for dry, rough hands. Fast-absorbing and non-sticky.",
     features: ["75ml tube", "Intensive moisture", "Fast absorbing", "Non-sticky"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv011.jpg",
     ],
     stock: 200,
     unit: "75ml",
@@ -4111,7 +4111,7 @@ export const products: Product[] = [
       "Antiseptic mouthwash that kills 99.9% germs. Fresh breath and complete oral protection.",
     features: ["250ml bottle", "Kills 99.9% germs", "Fresh breath", "Antiseptic"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg022.jpg",
     ],
     stock: 180,
     unit: "250ml",
@@ -4128,7 +4128,7 @@ export const products: Product[] = [
       "Natural multani mitti face pack for deep cleansing. Removes oil, tightens pores, and brightens.",
     features: ["60g pack", "Natural clay", "Deep cleansing", "Oil control"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/co014.jpg",
     ],
     stock: 250,
     unit: "60g",
@@ -4145,7 +4145,7 @@ export const products: Product[] = [
       "Moisturizing lip balm with SPF 15 sun protection. Keeps lips soft and prevents chapping.",
     features: ["4.8g stick", "SPF 15", "Moisturizing", "Prevents chapping"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/de016.jpg",
     ],
     stock: 200,
     unit: "4.8g",
@@ -4162,7 +4162,7 @@ export const products: Product[] = [
       "Refreshing shower gel with peach and avocado. Gentle cleansing with moisturizing formula.",
     features: ["250ml bottle", "Peach & avocado", "Moisturizing", "Refreshing"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/he013.jpg",
     ],
     badge: "New",
     stock: 180,
@@ -4180,7 +4180,7 @@ export const products: Product[] = [
       "Strong hold hair gel for all-day styling. Non-flaky and easy to wash off.",
     features: ["250ml jar", "Strong hold", "Non-flaky", "All-day style"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/de017.jpg",
     ],
     stock: 220,
     unit: "250ml",
@@ -4197,7 +4197,7 @@ export const products: Product[] = [
       "Ultra-thin sanitary pads with wings for secure fit. Up to 12 hours of protection.",
     features: ["15 pads pack", "Ultra thin", "With wings", "12hr protection"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/de009.jpg",
     ],
     badge: "Bestseller",
     stock: 300,
@@ -4215,7 +4215,7 @@ export const products: Product[] = [
       "Soft cotton earbuds with sturdy stick. Gentle for ear cleaning and makeup application.",
     features: ["100 sticks pack", "Soft cotton", "Sturdy stick", "Multi-purpose"],
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80",
+      "/products/de010.jpg",
     ],
     stock: 350,
     unit: "pack",
@@ -4234,7 +4234,7 @@ export const products: Product[] = [
       "Premium California almonds, raw and unprocessed. Rich in vitamin E and healthy fats.",
     features: ["250g pack", "California origin", "Raw & whole", "Vitamin E rich"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/co007.jpg",
     ],
     badge: "Bestseller",
     stock: 200,
@@ -4252,7 +4252,7 @@ export const products: Product[] = [
       "Whole W320 grade cashews, creamy and delicious. Perfect for snacking and making sweets.",
     features: ["250g pack", "W320 grade", "Whole nuts", "Premium quality"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/de020.jpg",
     ],
     badge: "Bestseller",
     stock: 180,
@@ -4270,7 +4270,7 @@ export const products: Product[] = [
       "Premium green raisins, sweet and juicy. Great for snacking, baking, and garnishing.",
     features: ["250g pack", "Green variety", "Sweet & juicy", "Iron rich"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv003.jpg",
     ],
     stock: 250,
     unit: "250g",
@@ -4287,7 +4287,7 @@ export const products: Product[] = [
       "Roasted and salted pistachios from Iran. Crunchy, flavorful, and satisfying.",
     features: ["200g pack", "Roasted & salted", "Iranian origin", "In shell"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv004.jpg",
     ],
     badge: "Limited",
     stock: 100,
@@ -4305,7 +4305,7 @@ export const products: Product[] = [
       "Premium Chilean walnuts rich in omega-3. Brain food for the whole family.",
     features: ["250g pack", "Chilean origin", "Omega-3 rich", "Brain food"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv005.jpg",
     ],
     stock: 150,
     unit: "250g",
@@ -4322,7 +4322,7 @@ export const products: Product[] = [
       "Jumbo Medjool dates, soft and caramel-like. Nature's candy packed with energy.",
     features: ["250g pack", "Medjool variety", "Soft & sweet", "Energy booster"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv006.jpg",
     ],
     badge: "Exclusive",
     stock: 80,
@@ -4341,7 +4341,7 @@ export const products: Product[] = [
       "Premium assortment of almonds, cashews, raisins, and pistachios. A perfect gift box.",
     features: ["500g box", "4 varieties", "Gift pack", "Premium quality"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv007.jpg",
     ],
     badge: "Bestseller",
     stock: 120,
@@ -4359,7 +4359,7 @@ export const products: Product[] = [
       "Soft dried figs rich in fiber and calcium. A nutritious snack for everyday health.",
     features: ["200g pack", "Soft & sweet", "High fiber", "Calcium rich"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv008.jpg",
     ],
     stock: 140,
     unit: "200g",
@@ -4376,7 +4376,7 @@ export const products: Product[] = [
       "Turkish dried apricots with natural sweetness. Rich in potassium and vitamin A.",
     features: ["200g pack", "Turkish origin", "No sugar added", "Vitamin A rich"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv009.jpg",
     ],
     stock: 120,
     unit: "200g",
@@ -4393,7 +4393,7 @@ export const products: Product[] = [
       "Raw pumpkin seeds packed with zinc and magnesium. A superfood for daily nutrition.",
     features: ["150g pack", "Raw seeds", "Zinc rich", "Superfood"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv010.jpg",
     ],
     badge: "New",
     stock: 180,
@@ -4411,7 +4411,7 @@ export const products: Product[] = [
       "Roasted sunflower seeds for healthy snacking. Rich in vitamin E and selenium.",
     features: ["150g pack", "Roasted", "Vitamin E", "Healthy snack"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv011.jpg",
     ],
     stock: 200,
     unit: "150g",
@@ -4428,7 +4428,7 @@ export const products: Product[] = [
       "Omega-3 rich chia seeds for smoothies, puddings, and salads. A complete superfood.",
     features: ["200g pack", "Omega-3 rich", "High fiber", "Superfood"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv001.jpg",
     ],
     badge: "Bestseller",
     stock: 250,
@@ -4446,7 +4446,7 @@ export const products: Product[] = [
       "Raw flax seeds rich in omega-3 and lignans. Add to smoothies, yogurt, or rotis.",
     features: ["200g pack", "Raw seeds", "Omega-3", "Lignan rich"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv002.jpg",
     ],
     stock: 200,
     unit: "200g",
@@ -4463,7 +4463,7 @@ export const products: Product[] = [
       "Premium macadamia nuts with buttery flavor. The world's finest nut for gourmet snacking.",
     features: ["100g pack", "Australian origin", "Buttery flavor", "Premium"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv022.jpg",
     ],
     badge: "Exclusive",
     stock: 40,
@@ -4481,7 +4481,7 @@ export const products: Product[] = [
       "Sweet and tangy dried cranberries. Great for baking, salads, and trail mixes.",
     features: ["200g pack", "Sweet & tangy", "For baking", "Antioxidant rich"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv012.jpg",
     ],
     stock: 160,
     unit: "200g",
@@ -4498,7 +4498,7 @@ export const products: Product[] = [
       "Whole roasted hazelnuts with rich, nutty flavor. Perfect for baking and chocolate pairing.",
     features: ["150g pack", "Whole roasted", "Turkish origin", "Rich flavor"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv013.jpg",
     ],
     stock: 90,
     unit: "150g",
@@ -4515,7 +4515,7 @@ export const products: Product[] = [
       "Selenium-rich Brazil nuts for thyroid health. Just 2-3 nuts meet your daily selenium needs.",
     features: ["100g pack", "Selenium rich", "For thyroid", "Limited quantity"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv014.jpg",
     ],
     badge: "Limited",
     stock: 50,
@@ -4533,7 +4533,7 @@ export const products: Product[] = [
       "Energy-boosting trail mix with nuts, seeds, and dried fruits. Perfect pre-workout snack.",
     features: ["200g pack", "Nuts & seeds mix", "Energy boost", "Pre-workout"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv015.jpg",
     ],
     stock: 180,
     unit: "200g",
@@ -4550,7 +4550,7 @@ export const products: Product[] = [
       "Pure Kashmiri saffron strands with intense color and aroma. For biryanis, milk, and desserts.",
     features: ["1g pack", "Kashmiri origin", "Pure strands", "Intense color"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv016.jpg",
     ],
     badge: "Exclusive",
     stock: 60,
@@ -4568,7 +4568,7 @@ export const products: Product[] = [
       "Roasted makhana, a healthy and crunchy snack. Low calorie, high protein, great for fasting.",
     features: ["200g pack", "Roasted", "Low calorie", "Fasting snack"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv017.jpg",
     ],
     badge: "Bestseller",
     stock: 250,
@@ -4586,7 +4586,7 @@ export const products: Product[] = [
       "Dry dates for daily consumption. Natural energy source rich in iron and fiber.",
     features: ["250g pack", "Natural energy", "Iron rich", "Daily use"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv018.jpg",
     ],
     stock: 200,
     unit: "250g",
@@ -4603,7 +4603,7 @@ export const products: Product[] = [
       "Premium pine nuts from the Himalayas. Buttery flavor perfect for pesto and garnishing.",
     features: ["100g pack", "Himalayan origin", "Buttery taste", "For pesto"],
     images: [
-      "https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=1200&q=80",
+      "/products/fv019.jpg",
     ],
     badge: "Exclusive",
     stock: 30,
@@ -4623,7 +4623,7 @@ export const products: Product[] = [
       "India's favorite 2-minute noodles with masala tastemaker. Quick, delicious, and satisfying.",
     features: ["4 pack (280g)", "2-minute cooking", "Masala flavor", "Vegetarian"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg021.jpg",
     ],
     badge: "Bestseller",
     stock: 800,
@@ -4641,7 +4641,7 @@ export const products: Product[] = [
       "Instant cup noodles in spicy masala flavor. Just add hot water for a quick meal.",
     features: ["70g cup", "Just add water", "Ready in 3 min", "Spicy masala"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg022.jpg",
     ],
     stock: 400,
     unit: "cup",
@@ -4658,7 +4658,7 @@ export const products: Product[] = [
       "Instant poha with authentic taste. Just add hot water, stir, and enjoy in 5 minutes.",
     features: ["60g cup", "5 min prep", "Authentic taste", "Just add water"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/co014.jpg",
     ],
     stock: 250,
     unit: "cup",
@@ -4675,7 +4675,7 @@ export const products: Product[] = [
       "Ready-to-cook upma mix for a quick South Indian breakfast. Just add water and cook.",
     features: ["200g pack", "Ready mix", "South Indian", "Quick breakfast"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/co009.jpg",
     ],
     stock: 200,
     unit: "200g",
@@ -4692,7 +4692,7 @@ export const products: Product[] = [
       "Restaurant-style dal makhani, heat and eat. Rich, creamy, and authentically flavored.",
     features: ["300g pack", "Heat & eat", "Restaurant style", "No preservatives"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/co010.jpg",
     ],
     badge: "Bestseller",
     stock: 180,
@@ -4710,7 +4710,7 @@ export const products: Product[] = [
       "Classic tomato soup mix, ready in 2 minutes. Warm, comforting, and delicious.",
     features: ["12g sachet", "Classic tomato", "2 min prep", "1 serving"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de020.jpg",
     ],
     stock: 500,
     unit: "sachet",
@@ -4727,7 +4727,7 @@ export const products: Product[] = [
       "Authentic rajma masala in retort pack. No soaking needed - just heat and enjoy with rice.",
     features: ["300g pack", "Heat & eat", "Authentic taste", "No soaking"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de007.jpg",
     ],
     stock: 200,
     unit: "300g",
@@ -4744,7 +4744,7 @@ export const products: Product[] = [
       "Durum wheat penne pasta for Italian-style cooking at home. Cooks perfectly al dente.",
     features: ["500g pack", "Durum wheat", "Penne shape", "Al dente"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de008.jpg",
     ],
     stock: 250,
     unit: "500g",
@@ -4761,7 +4761,7 @@ export const products: Product[] = [
       "Instant idli mix - soft, fluffy idlis in minutes without fermentation. South Indian made easy.",
     features: ["200g pack", "No fermentation", "Soft idlis", "Quick & easy"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de009.jpg",
     ],
     stock: 180,
     unit: "200g",
@@ -4778,7 +4778,7 @@ export const products: Product[] = [
       "Ready-to-eat paneer butter masala with real paneer cubes. Restaurant-quality in 2 minutes.",
     features: ["300g pack", "Real paneer", "Heat & eat", "Creamy gravy"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de010.jpg",
     ],
     badge: "New",
     stock: 150,
@@ -4796,7 +4796,7 @@ export const products: Product[] = [
       "Roasted vermicelli for upma and kheer. Quick-cooking and convenient for breakfast.",
     features: ["400g pack", "Roasted", "Quick cooking", "For upma & kheer"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de011.jpg",
     ],
     stock: 300,
     unit: "400g",
@@ -4813,7 +4813,7 @@ export const products: Product[] = [
       "Crispy dosa without grinding or fermenting. Just add water and spread on tawa.",
     features: ["200g pack", "No grinding", "Crispy dosas", "Just add water"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de012.jpg",
     ],
     stock: 200,
     unit: "200g",
@@ -4830,7 +4830,7 @@ export const products: Product[] = [
       "Street-style Hakka noodles with desi Chinese flavor. Quick and satisfying meal option.",
     features: ["150g pack", "Desi Chinese", "Street style", "Quick cooking"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de013.jpg",
     ],
     stock: 350,
     unit: "150g",
@@ -4847,7 +4847,7 @@ export const products: Product[] = [
       "Spicy hot and sour soup mix with real vegetables. Ready in minutes for a warming starter.",
     features: ["55g sachet", "Hot & sour", "Real veggies", "3 servings"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de014.jpg",
     ],
     stock: 280,
     unit: "sachet",
@@ -4864,7 +4864,7 @@ export const products: Product[] = [
       "Comfort food made easy - instant khichdi with dal and rice. Just add water and microwave.",
     features: ["180g pack", "Dal & rice", "Microwave ready", "Comfort food"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de016.jpg",
     ],
     stock: 160,
     unit: "180g",
@@ -4881,7 +4881,7 @@ export const products: Product[] = [
       "Italian marinara pasta sauce with herbs and tomatoes. Restaurant-quality pasta at home.",
     features: ["400g jar", "Italian herbs", "Real tomatoes", "No artificial color"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de017.jpg",
     ],
     stock: 140,
     unit: "400g",
@@ -4898,7 +4898,7 @@ export const products: Product[] = [
       "Complete biryani cooking kit with rice, masala, and fried onions. Just add your protein.",
     features: ["Serves 4", "Complete kit", "Masala included", "Fried onions"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/de018.jpg",
     ],
     badge: "New",
     stock: 120,
@@ -4916,7 +4916,7 @@ export const products: Product[] = [
       "Instant gulab jamun mix for soft, melt-in-mouth sweets. Perfect results every time.",
     features: ["200g pack", "Easy recipe", "Soft texture", "Makes 18-20 pcs"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg001.jpg",
     ],
     badge: "Bestseller",
     stock: 250,
@@ -4934,7 +4934,7 @@ export const products: Product[] = [
       "Crispy rava dosa mix for quick breakfast. No soaking or grinding required.",
     features: ["200g pack", "Crispy rava dosa", "No soaking", "Quick prep"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg002.jpg",
     ],
     stock: 180,
     unit: "200g",
@@ -4951,7 +4951,7 @@ export const products: Product[] = [
       "Authentic Punjabi chole, heat and serve. Rich and spicy, perfect with bhature or rice.",
     features: ["300g pack", "Punjabi style", "Heat & eat", "Authentic spices"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg003.jpg",
     ],
     stock: 200,
     unit: "300g",
@@ -4968,7 +4968,7 @@ export const products: Product[] = [
       "Schezwan noodle masala for making desi Chinese at home. Add to any plain noodles.",
     features: ["20g sachet", "Schezwan flavor", "For noodles", "Desi Chinese"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg004.jpg",
     ],
     stock: 400,
     unit: "sachet",
@@ -4985,8 +4985,710 @@ export const products: Product[] = [
       "Mumbai-style pav bhaji in retort pack. Authentic street food flavor, ready in 2 minutes.",
     features: ["300g pack", "Mumbai style", "Heat & eat", "Street food flavor"],
     images: [
-      "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=1200&q=80",
+      "/products/sg005.jpg",
     ],
+    stock: 180,
+    unit: "300g",
+  },
+
+  // ===== FRUITS & VEGETABLES (additional) =====
+  {
+    id: "fv023",
+    name: "Green Grapes (Seedless)",
+    brand: "Farm Fresh",
+    category: "fruits-vegetables",
+    price: 95,
+    rating: 4.6,
+    reviews: 1567,
+    description:
+      "Sweet seedless green grapes, perfect for snacking, fruit salads, and lunchbox additions.",
+    features: ["500g pack", "Seedless variety", "Sweet & crisp", "Chilled serving"],
+    images: [
+      "/products/fv001.jpg",
+    ],
+    stock: 130,
+    unit: "500g",
+  },
+  {
+    id: "fv024",
+    name: "Watermelon (Tarbooz)",
+    brand: "Local Farms",
+    category: "fruits-vegetables",
+    price: 45,
+    rating: 4.4,
+    reviews: 3210,
+    description:
+      "Juicy and refreshing watermelon, perfect for summer hydration and fruit bowls.",
+    features: ["1 piece (~2-3 kg)", "Sweet & juicy", "High water content", "Summer special"],
+    images: [
+      "/products/fv002.jpg",
+    ],
+    stock: 80,
+    unit: "piece",
+  },
+  {
+    id: "fv025",
+    name: "Fresh Pineapple (Ananas)",
+    brand: "Farm Fresh",
+    category: "fruits-vegetables",
+    price: 69,
+    originalPrice: 85,
+    rating: 4.5,
+    reviews: 987,
+    description:
+      "Sweet tropical pineapple rich in bromelain. Great for juice, desserts, and cooking.",
+    features: ["1 piece (~1 kg)", "Sweet & tangy", "Rich in bromelain", "Tropical fruit"],
+    images: [
+      "/products/fv003.jpg",
+    ],
+    badge: "New",
+    stock: 90,
+    unit: "piece",
+  },
+
+  // ===== DAIRY & EGGS (additional) =====
+  {
+    id: "de023",
+    name: "Probiotic Curd",
+    brand: "Nestle a+",
+    category: "dairy-eggs",
+    price: 55,
+    rating: 4.7,
+    reviews: 1890,
+    description:
+      "Probiotic-enriched curd with live cultures for better gut health. Creamy and smooth.",
+    features: ["400g cup", "Live cultures", "Gut health", "Smooth texture"],
+    images: [
+      "/products/fv020.jpg",
+    ],
+    stock: 160,
+    unit: "400g",
+  },
+  {
+    id: "de024",
+    name: "Malai Paneer - Premium",
+    brand: "Amul",
+    category: "dairy-eggs",
+    price: 159,
+    originalPrice: 180,
+    rating: 4.8,
+    reviews: 2345,
+    description:
+      "Extra creamy premium paneer with rich malai texture. Perfect for restaurant-style paneer dishes.",
+    features: ["250g block", "Extra creamy", "Premium quality", "Soft & fresh"],
+    images: [
+      "/products/fv021.jpg",
+    ],
+    badge: "Exclusive",
+    stock: 120,
+    unit: "250g",
+  },
+  {
+    id: "de025",
+    name: "Double Toned Milk",
+    brand: "Mother Dairy",
+    category: "dairy-eggs",
+    price: 52,
+    rating: 4.6,
+    reviews: 4567,
+    description:
+      "Double toned milk with 1.5% fat. Lower calorie option for health-conscious families.",
+    features: ["1 litre pack", "1.5% fat", "Pasteurized", "Low calorie"],
+    images: [
+      "/products/fv022.jpg",
+    ],
+    stock: 400,
+    unit: "litre",
+  },
+
+  // ===== STAPLES & GRAINS (additional) =====
+  {
+    id: "sg023",
+    name: "Brown Rice",
+    brand: "India Gate",
+    category: "staples-grains",
+    price: 175,
+    rating: 4.4,
+    reviews: 1678,
+    description:
+      "Unpolished brown rice with bran intact. Higher fiber and nutrients than white rice.",
+    features: ["1 kg pack", "Unpolished", "High fiber", "Low GI"],
+    images: [
+      "/products/co014.jpg",
+    ],
+    stock: 140,
+    unit: "kg",
+  },
+  {
+    id: "sg024",
+    name: "Daliya (Broken Wheat)",
+    brand: "Patanjali",
+    category: "staples-grains",
+    price: 45,
+    rating: 4.6,
+    reviews: 2890,
+    description:
+      "Nutritious broken wheat for upma, khichdi, and porridge. High fiber breakfast option.",
+    features: ["500g pack", "High fiber", "Quick cooking", "Nutritious"],
+    images: [
+      "/products/de020.jpg",
+    ],
+    stock: 200,
+    unit: "500g",
+  },
+  {
+    id: "sg025",
+    name: "Idli Rava",
+    brand: "MTR",
+    category: "staples-grains",
+    price: 70,
+    rating: 4.5,
+    reviews: 1567,
+    description:
+      "Coarsely ground rice rava for soft and fluffy idlis. No soaking required for instant preparation.",
+    features: ["500g pack", "Coarse ground", "No soaking needed", "Soft idlis"],
+    images: [
+      "/products/sg001.jpg",
+    ],
+    stock: 160,
+    unit: "500g",
+  },
+
+  // ===== COOKING OILS & GHEE (additional) =====
+  {
+    id: "co023",
+    name: "Castor Oil (Food Grade)",
+    brand: "Dabur",
+    category: "cooking-oils",
+    price: 145,
+    rating: 4.3,
+    reviews: 789,
+    description:
+      "Food-grade cold-pressed castor oil for traditional remedies and occasional cooking use.",
+    features: ["200ml bottle", "Food grade", "Cold pressed", "Multi-purpose"],
+    images: [
+      "/products/de012.jpg",
+    ],
+    stock: 90,
+    unit: "200ml",
+  },
+  {
+    id: "co024",
+    name: "Organic Mustard Oil",
+    brand: "24 Mantra Organic",
+    category: "cooking-oils",
+    price: 275,
+    rating: 4.6,
+    reviews: 1234,
+    description:
+      "Certified organic cold-pressed mustard oil. Pure pungent flavor without chemical processing.",
+    features: ["1 litre bottle", "Organic certified", "Cold pressed", "No chemicals"],
+    images: [
+      "/products/de013.jpg",
+    ],
+    badge: "New",
+    stock: 100,
+    unit: "litre",
+  },
+  {
+    id: "co025",
+    name: "Filtered Groundnut Oil",
+    brand: "Dhara",
+    category: "cooking-oils",
+    price: 210,
+    rating: 4.6,
+    reviews: 2890,
+    description:
+      "Filtered groundnut oil with traditional nutty flavor. Ideal for frying and tempering.",
+    features: ["1 litre bottle", "Filtered", "Nutty flavor", "Traditional process"],
+    images: [
+      "/products/de014.jpg",
+    ],
+    stock: 190,
+    unit: "litre",
+  },
+
+  // ===== SPICES & MASALAS (additional) =====
+  {
+    id: "sm023",
+    name: "Star Anise (Chakri Phool)",
+    brand: "Catch",
+    category: "spices-masalas",
+    price: 75,
+    rating: 4.5,
+    reviews: 987,
+    description:
+      "Whole star anise with sweet licorice-like flavor. Used in biryani, chai, and Chinese cooking.",
+    features: ["50g pack", "Whole stars", "Sweet aroma", "Dual-cuisine use"],
+    images: [
+      "/products/sm001.jpg",
+    ],
+    stock: 120,
+    unit: "50g",
+  },
+  {
+    id: "sm024",
+    name: "Nutmeg (Jaiphal)",
+    brand: "Catch",
+    category: "spices-masalas",
+    price: 85,
+    rating: 4.4,
+    reviews: 876,
+    description:
+      "Whole nutmeg with warm, spicy-sweet flavor. Grate fresh for garam masala and desserts.",
+    features: ["50g pack", "Whole nutmeg", "Warm flavor", "Freshly grate"],
+    images: [
+      "/products/sm002.jpg",
+    ],
+    stock: 100,
+    unit: "50g",
+  },
+  {
+    id: "sm025",
+    name: "White Pepper Powder",
+    brand: "Catch",
+    category: "spices-masalas",
+    price: 110,
+    rating: 4.5,
+    reviews: 765,
+    description:
+      "Fine white pepper powder with mild heat. Preferred in light-colored gravies and soups.",
+    features: ["50g pack", "Fine powder", "Mild heat", "For light dishes"],
+    images: [
+      "/products/de006.jpg",
+    ],
+    stock: 110,
+    unit: "50g",
+  },
+
+  // ===== SNACKS & BEVERAGES (additional) =====
+  {
+    id: "sb023",
+    name: "Nachos - Cheese",
+    brand: "Doritos",
+    category: "snacks-beverages",
+    price: 45,
+    rating: 4.4,
+    reviews: 2345,
+    description:
+      "Crispy corn nachos with bold cheese seasoning. Perfect for dipping with salsa and guacamole.",
+    features: ["60g pack", "Cheese flavor", "Corn based", "Party snack"],
+    images: [
+      "/products/co007.jpg",
+    ],
+    stock: 220,
+    unit: "60g",
+  },
+  {
+    id: "sb024",
+    name: "Cream Biscuits - Orange",
+    brand: "Britannia",
+    category: "snacks-beverages",
+    price: 30,
+    rating: 4.5,
+    reviews: 5432,
+    description:
+      "Crunchy biscuits with sweet orange cream filling. A colorful snack kids absolutely love.",
+    features: ["120g pack", "Orange cream", "Crunchy biscuit", "Kids favorite"],
+    images: [
+      "/products/de020.jpg",
+    ],
+    stock: 350,
+    unit: "120g",
+  },
+  {
+    id: "sb025",
+    name: "Sweet Lassi",
+    brand: "Amul",
+    category: "snacks-beverages",
+    price: 25,
+    rating: 4.6,
+    reviews: 4567,
+    description:
+      "Chilled sweet lassi made from fresh curd. Traditional Punjabi refreshing yogurt drink.",
+    features: ["200ml pack", "Fresh curd", "Sweet flavor", "Chilled serve"],
+    images: [
+      "/products/sb005.jpg",
+    ],
+    stock: 280,
+    unit: "200ml",
+  },
+
+  // ===== BAKERY & BREADS (additional) =====
+  {
+    id: "bb023",
+    name: "Puff Pastry Sheets",
+    brand: "ITC Master Chef",
+    category: "bakery-breads",
+    price: 135,
+    rating: 4.5,
+    reviews: 987,
+    description:
+      "Frozen puff pastry sheets for samosas, patties, and desserts. Ready to roll and bake.",
+    features: ["400g (4 sheets)", "Ready to use", "Flaky layers", "Multi-purpose"],
+    images: [
+      "/products/sg021.jpg",
+    ],
+    stock: 80,
+    unit: "400g",
+  },
+  {
+    id: "bb024",
+    name: "Dinner Rolls - Butter",
+    brand: "Britannia",
+    category: "bakery-breads",
+    price: 49,
+    rating: 4.5,
+    reviews: 1890,
+    description:
+      "Soft buttery dinner rolls to complement soups and meals. Warm, fluffy, and delicious.",
+    features: ["6 pieces pack", "Butter enriched", "Soft & warm", "Meal companion"],
+    images: [
+      "/products/sg022.jpg",
+    ],
+    stock: 120,
+    unit: "pack",
+  },
+  {
+    id: "bb025",
+    name: "Bread Crumbs",
+    brand: "Weikfield",
+    category: "bakery-breads",
+    price: 65,
+    rating: 4.3,
+    reviews: 1234,
+    description:
+      "Fine bread crumbs for coating cutlets, tikkis, and fried snacks. Gives crispy golden coating.",
+    features: ["200g pack", "Fine texture", "Golden coating", "Multi-use"],
+    images: [
+      "/products/co014.jpg",
+    ],
+    stock: 150,
+    unit: "200g",
+  },
+
+  // ===== HOUSEHOLD ESSENTIALS (additional) =====
+  {
+    id: "he023",
+    name: "Bleach Liquid",
+    brand: "Rin",
+    category: "household-essentials",
+    price: 55,
+    rating: 4.3,
+    reviews: 1890,
+    description:
+      "Concentrated bleach for whitening clothes and disinfecting surfaces. Powerful stain removal.",
+    features: ["500ml bottle", "Concentrated", "Whitens clothes", "Disinfects"],
+    images: [
+      "/products/sg022.jpg",
+    ],
+    stock: 180,
+    unit: "500ml",
+  },
+  {
+    id: "he024",
+    name: "Dish Wash Bar",
+    brand: "Vim",
+    category: "household-essentials",
+    price: 30,
+    rating: 4.7,
+    reviews: 8765,
+    description:
+      "Tough on grease, lemon-scented dish wash bar. Economical option for daily dishwashing.",
+    features: ["250g bar", "Lemon scent", "Removes grease", "Long lasting"],
+    images: [
+      "/products/co014.jpg",
+    ],
+    badge: "Bestseller",
+    stock: 400,
+    unit: "250g",
+  },
+  {
+    id: "he025",
+    name: "Dustbin Bags - Large",
+    brand: "Ezee",
+    category: "household-essentials",
+    price: 125,
+    rating: 4.5,
+    reviews: 1567,
+    description:
+      "Extra-strong large dustbin bags for outdoor and heavy-duty waste. Drawstring closure.",
+    features: ["15 bags pack", "Extra large", "Drawstring", "Heavy duty"],
+    images: [
+      "/products/fv010.jpg",
+    ],
+    stock: 150,
+    unit: "pack",
+  },
+
+  // ===== FROZEN FOODS (additional) =====
+  {
+    id: "ff023",
+    name: "Frozen Mango Pulp",
+    brand: "Safal",
+    category: "frozen-foods",
+    price: 135,
+    rating: 4.7,
+    reviews: 2345,
+    description:
+      "Pure Alphonso mango pulp frozen at peak ripeness. Makes milkshakes, lassi, and desserts.",
+    features: ["500g pack", "Alphonso variety", "No added sugar", "100% pulp"],
+    images: [
+      "/products/fv021.jpg",
+    ],
+    stock: 150,
+    unit: "500g",
+  },
+  {
+    id: "ff024",
+    name: "Frozen Idli Batter",
+    brand: "iD Fresh",
+    category: "frozen-foods",
+    price: 75,
+    rating: 4.6,
+    reviews: 3890,
+    description:
+      "Ready-to-use fermented idli batter. Makes soft and fluffy idlis without overnight soaking.",
+    features: ["1 kg pack", "Pre-fermented", "Soft idlis", "No preservatives"],
+    images: [
+      "/products/fv001.jpg",
+    ],
+    badge: "Bestseller",
+    stock: 180,
+    unit: "kg",
+  },
+  {
+    id: "ff025",
+    name: "Family Pack Ice Cream - Butterscotch",
+    brand: "Amul",
+    category: "frozen-foods",
+    price: 275,
+    originalPrice: 320,
+    rating: 4.8,
+    reviews: 5432,
+    description:
+      "Premium butterscotch ice cream with caramel crunch. Family-size tub for celebrations.",
+    features: ["1 litre tub", "Butterscotch", "Caramel crunch", "Family size"],
+    images: [
+      "/products/fv003.jpg",
+    ],
+    badge: "Limited",
+    stock: 100,
+    unit: "litre",
+  },
+
+  // ===== BABY CARE (additional) =====
+  {
+    id: "bc023",
+    name: "Disposable Nursing Pads",
+    brand: "Pigeon",
+    category: "baby-care",
+    price: 285,
+    rating: 4.6,
+    reviews: 1567,
+    description:
+      "Ultra-thin disposable breast pads for nursing mothers. Super absorbent with adhesive backing.",
+    features: ["36 pads pack", "Ultra thin", "Super absorbent", "Adhesive backing"],
+    images: [
+      "/products/de014.jpg",
+    ],
+    stock: 100,
+    unit: "pack",
+  },
+  {
+    id: "bc024",
+    name: "Baby Laundry Detergent",
+    brand: "Pigeon",
+    category: "baby-care",
+    price: 199,
+    rating: 4.5,
+    reviews: 2345,
+    description:
+      "Gentle liquid detergent specially formulated for baby clothes. Removes milk stains effectively.",
+    features: ["500ml bottle", "Gentle formula", "Stain removal", "Hypoallergenic"],
+    images: [
+      "/products/de015.jpg",
+    ],
+    stock: 140,
+    unit: "500ml",
+  },
+  {
+    id: "bc025",
+    name: "Baby Mosquito Repellent Patches",
+    brand: "Mamaearth",
+    category: "baby-care",
+    price: 149,
+    rating: 4.4,
+    reviews: 3210,
+    description:
+      "Natural citronella mosquito repellent patches for babies. DEET-free and safe for newborns.",
+    features: ["24 patches", "Citronella based", "DEET free", "12 hr protection"],
+    images: [
+      "/products/de018.jpg",
+    ],
+    badge: "New",
+    stock: 180,
+    unit: "pack",
+  },
+
+  // ===== PERSONAL CARE (additional) =====
+  {
+    id: "pc023",
+    name: "Kajal - Intense Black",
+    brand: "Lakme",
+    category: "personal-care",
+    price: 185,
+    rating: 4.6,
+    reviews: 4321,
+    description:
+      "Smudge-proof intense black kajal with 24-hour stay. Ophthalmologist tested and safe for eyes.",
+    features: ["0.35g pencil", "Smudge-proof", "24 hr stay", "Intense black"],
+    images: [
+      "/products/de011.jpg",
+    ],
+    stock: 200,
+    unit: "piece",
+  },
+  {
+    id: "pc024",
+    name: "Talcum Powder - Sandal",
+    brand: "Santoor",
+    category: "personal-care",
+    price: 85,
+    rating: 4.5,
+    reviews: 3456,
+    description:
+      "Sandalwood-scented talcum powder for freshness and fragrance. Absorbs sweat effectively.",
+    features: ["150g pack", "Sandal fragrance", "Sweat absorption", "Cooling effect"],
+    images: [
+      "/products/de012.jpg",
+    ],
+    stock: 220,
+    unit: "150g",
+  },
+  {
+    id: "pc025",
+    name: "Cotton Balls",
+    brand: "Tulips",
+    category: "personal-care",
+    price: 55,
+    rating: 4.3,
+    reviews: 1567,
+    description:
+      "Soft and absorbent pure cotton balls for skincare and makeup removal. Gentle on skin.",
+    features: ["50 balls pack", "100% cotton", "Super soft", "Multi-use"],
+    images: [
+      "/products/de013.jpg",
+    ],
+    stock: 180,
+    unit: "pack",
+  },
+
+  // ===== DRY FRUITS (additional) =====
+  {
+    id: "df023",
+    name: "Melon Seeds (Magaz)",
+    brand: "Farmley",
+    category: "dry-fruits",
+    price: 169,
+    rating: 4.4,
+    reviews: 1234,
+    description:
+      "Premium melon seeds used in Indian sweets, thandai, and as a nutritious snack.",
+    features: ["200g pack", "Premium quality", "For sweets & drinks", "Protein rich"],
+    images: [
+      "/products/fv020.jpg",
+    ],
+    stock: 130,
+    unit: "200g",
+  },
+  {
+    id: "df024",
+    name: "Watermelon Seeds - Roasted",
+    brand: "True Elements",
+    category: "dry-fruits",
+    price: 159,
+    rating: 4.3,
+    reviews: 1567,
+    description:
+      "Lightly roasted watermelon seeds rich in magnesium. Crunchy healthy snack alternative.",
+    features: ["200g pack", "Roasted", "Magnesium rich", "Crunchy snack"],
+    images: [
+      "/products/fv021.jpg",
+    ],
+    stock: 140,
+    unit: "200g",
+  },
+  {
+    id: "df025",
+    name: "Mixed Seeds - 5-in-1",
+    brand: "True Elements",
+    category: "dry-fruits",
+    price: 245,
+    rating: 4.6,
+    reviews: 2890,
+    description:
+      "Blend of pumpkin, sunflower, flax, chia, and watermelon seeds. Superfood seed mix.",
+    features: ["250g pack", "5 seed blend", "Superfood mix", "No additives"],
+    images: [
+      "/products/sb005.jpg",
+    ],
+    badge: "Bestseller",
+    stock: 170,
+    unit: "250g",
+  },
+
+  // ===== INSTANT FOOD (additional) =====
+  {
+    id: "if023",
+    name: "Pasta Sauce - Arrabbiata",
+    brand: "Del Monte",
+    category: "instant-food",
+    price: 125,
+    rating: 4.4,
+    reviews: 1234,
+    description:
+      "Spicy Italian arrabbiata pasta sauce with tomatoes and red chilli. Ready-to-use sauce.",
+    features: ["400g jar", "Ready to use", "Real tomatoes", "Spicy Italian"],
+    images: [
+      "/products/fv005.jpg",
+    ],
+    stock: 120,
+    unit: "400g",
+  },
+  {
+    id: "if024",
+    name: "Instant Jalebi Mix",
+    brand: "Gits",
+    category: "instant-food",
+    price: 75,
+    rating: 4.6,
+    reviews: 2345,
+    description:
+      "Easy jalebi mix for crispy spiral Indian sweets. Makes perfect jalebis with sugar syrup recipe.",
+    features: ["100g pack", "Crispy jalebis", "Sugar syrup recipe", "Easy method"],
+    images: [
+      "/products/fv006.jpg",
+    ],
+    badge: "New",
+    stock: 140,
+    unit: "100g",
+  },
+  {
+    id: "if025",
+    name: "Ready to Eat - Pav Bhaji",
+    brand: "Haldiram's",
+    category: "instant-food",
+    price: 89,
+    rating: 4.6,
+    reviews: 3890,
+    description:
+      "Mumbai-style pav bhaji in ready-to-eat pouch. Buttery mixed vegetable mash with authentic flavor.",
+    features: ["300g pouch", "Heat & eat", "Mumbai style", "Buttery flavor"],
+    images: [
+      "/products/fv007.jpg",
+    ],
+    badge: "Bestseller",
     stock: 180,
     unit: "300g",
   },
@@ -4994,8 +5696,9 @@ export const products: Product[] = [
 
 export const featuredIds = [
   "fv001", "de001", "sg001", "co003", "sm001", "sb001",
-  "fv011", "de002", "sg002", "ff005", "bc001", "df001",
-  "if001", "pc006", "bb012",
+  "fv021", "de006", "sg009", "ff004", "df001", "if001",
+  "bb007", "he009", "bc005", "pc006", "co014", "sm013",
+  "ff010", "df014",
 ];
 
 export function getProductById(id: string) {

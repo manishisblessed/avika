@@ -58,10 +58,10 @@ export default function AccountPage() {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-12">
             <div>
               <span className="eyebrow mb-3">My Account</span>
-              <h1 className="display text-4xl md:text-5xl mt-4">
+              <h1 className="display text-4xl md:text-5xl font-bold mt-4 text-ink">
                 Hello, <span className="gold-text">{user.name || "there"}.</span>
               </h1>
-              <p className="mt-2 text-ink/60">{user.email}</p>
+              <p className="mt-2 text-ink-soft">{user.email}</p>
             </div>
             <button
               onClick={() => signOut({ callbackUrl: "/" })}
@@ -75,50 +75,50 @@ export default function AccountPage() {
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           <Reveal delay={0.05}>
-            <div className="glass rounded-2xl p-6 card-hover h-full">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-gold-400/20 to-gold-700/10 border border-gold-500/30 flex items-center justify-center text-gold-300 mb-4">
+            <div className="card p-6 card-hover h-full">
+              <div className="w-11 h-11 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-600 mb-4">
                 <User size={18} />
               </div>
-              <h3 className="font-display text-xl text-ink">Profile</h3>
-              <p className="text-sm text-ink/55 mt-1">{user.name}</p>
-              <p className="text-sm text-ink/55">{user.email}</p>
+              <h3 className="font-display text-lg font-semibold text-ink">Profile</h3>
+              <p className="text-sm text-ink-soft mt-1">{user.name}</p>
+              <p className="text-sm text-ink-soft">{user.email}</p>
             </div>
           </Reveal>
 
           <Reveal delay={0.1}>
-            <div className="glass rounded-2xl p-6 card-hover h-full">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-gold-400/20 to-gold-700/10 border border-gold-500/30 flex items-center justify-center text-gold-300 mb-4">
+            <div className="card p-6 card-hover h-full">
+              <div className="w-11 h-11 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-600 mb-4">
                 <Package size={18} />
               </div>
-              <h3 className="font-display text-xl text-ink">Orders</h3>
-              <p className="text-sm text-ink/55 mt-1">
+              <h3 className="font-display text-lg font-semibold text-ink">Orders</h3>
+              <p className="text-sm text-ink-soft mt-1">
                 {orders.length} {orders.length === 1 ? "order" : "orders"} placed
               </p>
             </div>
           </Reveal>
 
           <Reveal delay={0.15}>
-            <div className="glass rounded-2xl p-6 card-hover h-full">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-gold-400/20 to-gold-700/10 border border-gold-500/30 flex items-center justify-center text-gold-300 mb-4">
+            <div className="card p-6 card-hover h-full">
+              <div className="w-11 h-11 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-600 mb-4">
                 <MapPin size={18} />
               </div>
-              <h3 className="font-display text-xl text-ink">Delivery Area</h3>
-              <p className="text-sm text-ink/55 mt-1">Delhi NCR</p>
-              <p className="text-sm text-ink/55">Same-day delivery available</p>
+              <h3 className="font-display text-lg font-semibold text-ink">Delivery Area</h3>
+              <p className="text-sm text-ink-soft mt-1">Delhi NCR</p>
+              <p className="text-sm text-ink-soft">Same-day delivery available</p>
             </div>
           </Reveal>
         </div>
 
         <Reveal delay={0.2}>
-          <div className="glass rounded-3xl p-8">
-            <h2 className="font-display text-2xl mb-6">Order History</h2>
+          <div className="card p-8">
+            <h2 className="font-display text-xl font-bold text-ink mb-6">Order History</h2>
             {orders.length === 0 ? (
               <div className="text-center py-12">
-                <div className="inline-flex p-5 rounded-full bg-white/5 border border-white/10 mb-4">
-                  <ShoppingBag size={28} className="text-gold-400" />
+                <div className="inline-flex p-5 rounded-full bg-gold-500/10 border border-gold-500/20 mb-4">
+                  <ShoppingBag size={28} className="text-gold-600" />
                 </div>
-                <p className="font-display text-xl text-ink">No orders yet</p>
-                <p className="text-sm text-ink/55 mt-2">
+                <p className="font-display text-lg font-semibold text-ink">No orders yet</p>
+                <p className="text-sm text-ink-soft mt-2">
                   Your order history will appear here once you make a purchase.
                 </p>
                 <Link href="/products" className="btn-gold mt-6 inline-flex">
@@ -137,13 +137,13 @@ export default function AccountPage() {
                       key={order.id}
                       initial={{ opacity: 0, y: 8 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="flex items-center justify-between p-4 rounded-xl border border-white/5 hover:border-gold-500/20 transition-colors"
+                      className="flex items-center justify-between p-4 rounded-xl border border-ink/10 bg-white hover:border-gold-500/40 transition-colors"
                     >
                       <div>
                         <p className="text-sm text-ink font-medium">
                           Order #{order.id.slice(-6).toUpperCase()}
                         </p>
-                        <p className="text-xs text-ink/50 mt-0.5">
+                        <p className="text-xs text-ink-mute mt-0.5">
                           {new Date(order.createdAt).toLocaleDateString("en-IN", {
                             day: "numeric",
                             month: "short",
@@ -153,10 +153,10 @@ export default function AccountPage() {
                         </p>
                       </div>
                       <div className="text-right">
-                        <p className="text-sm font-display gold-text">
+                        <p className="text-sm font-display font-bold text-ink">
                           ₹{Math.round(order.total)}
                         </p>
-                        <span className="inline-block mt-1 px-2 py-0.5 text-[9px] uppercase tracking-widest rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-300">
+                        <span className="inline-block mt-1 px-2 py-0.5 text-[9px] uppercase tracking-widest rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-700">
                           {order.status}
                         </span>
                       </div>

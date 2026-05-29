@@ -74,17 +74,17 @@ export default function AboutPage() {
             transition={{ duration: 0.8, ease: [0.2, 0.8, 0.2, 1] }}
           >
             <span className="eyebrow mb-3">Our Story</span>
-            <h1 className="display text-5xl md:text-7xl mt-5 leading-[1.05]">
+            <h1 className="display text-4xl md:text-6xl font-bold mt-5 leading-[1.05] text-ink">
               Your trusted{" "}
               <span className="gold-text">neighborhood grocery store.</span>
             </h1>
-            <p className="mt-7 text-ink/75 text-lg leading-relaxed">
+            <p className="mt-7 text-ink-soft text-lg leading-relaxed">
               {COMPANY_LEGAL_NAME} started with a simple belief: every family
               deserves access to fresh, quality groceries at fair prices. What
               began as a small store in Dwarka has grown into a trusted name
               across Delhi NCR.
             </p>
-            <p className="mt-5 text-ink/65 leading-relaxed">
+            <p className="mt-5 text-ink-soft leading-relaxed">
               Today, we serve thousands of families daily, bringing farm-fresh
               vegetables, quality staples, and everyday essentials right to their
               doorsteps — with the same warmth and care of a neighborhood kirana
@@ -108,16 +108,15 @@ export default function AboutPage() {
             transition={{ duration: 0.9, delay: 0.2, ease: [0.2, 0.8, 0.2, 1] }}
             className="relative"
           >
-            <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-white/5 group">
+            <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-soft-lg group">
               <Image
-                src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80"
+                src="/site/fresh-groceries.jpg"
                 alt="Fresh groceries"
                 fill
                 sizes="(min-width:1024px) 50vw, 100vw"
                 className="object-cover transition-transform duration-[1.2s] group-hover:scale-105"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-bg via-bg/20 to-transparent" />
             </div>
             <motion.div
               animate={{ y: [0, -10, 0] }}
@@ -139,13 +138,13 @@ export default function AboutPage() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
-          className="glass rounded-3xl p-10 grid grid-cols-2 md:grid-cols-4 gap-6 text-center"
+          className="card p-10 grid grid-cols-2 md:grid-cols-4 gap-6 text-center"
         >
           {[
             { v: 5, s: "+", l: "Years serving you" },
             { v: 50, s: "+", l: "Areas covered" },
-            { v: 15000, s: "+", l: "Happy families" },
-            { v: 1000, s: "+", l: "Quality products" },
+            { v: 13, s: "", l: "Categories" },
+            { v: 325, s: "+", l: "Quality products" },
           ].map((s, i) => (
             <motion.div
               key={s.l}
@@ -153,12 +152,11 @@ export default function AboutPage() {
               variants={scaleIn}
               className="relative group"
             >
-              <div className="absolute inset-0 rounded-2xl bg-gold-500/0 group-hover:bg-gold-500/5 transition-colors duration-500" />
               <div className="relative p-4">
-                <div className="font-display text-5xl gold-text">
+                <div className="font-display text-4xl md:text-5xl font-bold text-ink">
                   <Counter to={s.v} suffix={s.s} />
                 </div>
-                <p className="text-sm text-ink/65 mt-2">{s.l}</p>
+                <p className="text-sm text-ink-soft mt-2">{s.l}</p>
               </div>
             </motion.div>
           ))}
@@ -188,19 +186,18 @@ export default function AboutPage() {
               custom={i}
               variants={fadeUp}
               whileHover={{ y: -8, transition: { duration: 0.3 } }}
-              className="glass rounded-2xl p-7 h-full relative overflow-hidden group"
+              className="card card-hover p-7 h-full relative overflow-hidden group"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-gold-500/0 to-gold-500/0 group-hover:from-gold-500/5 group-hover:to-transparent transition-all duration-700" />
               <div className="relative">
                 <motion.div
                   whileHover={{ rotate: 5, scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 300 }}
-                  className="w-12 h-12 rounded-xl bg-gradient-to-br from-gold-400/20 to-gold-700/10 border border-gold-500/30 flex items-center justify-center text-gold-300 mb-5"
+                  className="w-12 h-12 rounded-xl bg-gold-500/10 flex items-center justify-center text-gold-600 mb-5"
                 >
                   <v.icon size={20} />
                 </motion.div>
-                <h3 className="font-display text-xl text-ink">{v.t}</h3>
-                <p className="text-sm text-ink/65 mt-2 leading-relaxed">{v.d}</p>
+                <h3 className="font-display text-lg font-semibold text-ink">{v.t}</h3>
+                <p className="text-sm text-ink-soft mt-2 leading-relaxed">{v.d}</p>
               </div>
             </motion.div>
           ))}
@@ -265,8 +262,8 @@ export default function AboutPage() {
               >
                 {item.step}
               </motion.div>
-              <h3 className="font-display text-2xl text-ink mb-3">{item.title}</h3>
-              <p className="text-ink/65 leading-relaxed">{item.desc}</p>
+              <h3 className="font-display text-xl font-semibold text-ink mb-3">{item.title}</h3>
+              <p className="text-ink-soft leading-relaxed">{item.desc}</p>
             </motion.div>
           ))}
         </motion.div>
@@ -279,7 +276,7 @@ export default function AboutPage() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.8, ease: [0.2, 0.8, 0.2, 1] }}
-          className="glass rounded-3xl p-10 md:p-16 overflow-hidden relative"
+          className="card p-10 md:p-16 overflow-hidden relative"
         >
           <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-gold-500/5 blur-3xl" />
           <div className="absolute -bottom-24 -left-24 w-64 h-64 rounded-full bg-brand-green-500/5 blur-3xl" />
@@ -300,7 +297,7 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: 0.1 }}
-                className="display text-4xl md:text-5xl mt-4 leading-tight"
+                className="display text-3xl md:text-4xl font-bold mt-4 leading-tight text-ink"
               >
                 From farm to <span className="gold-text">your table.</span>
               </motion.h2>
@@ -309,7 +306,7 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: 0.2 }}
-                className="mt-6 text-ink/75 leading-relaxed"
+                className="mt-6 text-ink-soft leading-relaxed"
               >
                 We partner directly with farmers across Haryana, Punjab, and UP
                 to bring you the freshest produce. Our staples and packaged goods
@@ -328,7 +325,7 @@ export default function AboutPage() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.3 + i * 0.1 }}
-                    className="flex items-center gap-3 text-ink/80"
+                    className="flex items-center gap-3 text-ink-soft"
                   >
                     <motion.span
                       animate={{ scale: [1, 1.3, 1] }}
@@ -349,7 +346,7 @@ export default function AboutPage() {
             >
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80"
+                  src="/site/farm-produce.jpg"
                   alt="Fresh farm produce"
                   fill
                   sizes="(min-width:1024px) 50vw, 100vw"

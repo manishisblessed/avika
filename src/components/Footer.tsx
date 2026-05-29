@@ -20,26 +20,25 @@ const cols = [
     links: [
       { href: "/about", label: "About Us" },
       { href: "/contact", label: "Contact Us" },
-      { href: "/login", label: "My Account" },
+      { href: "/account", label: "My Account" },
       { href: "/cart", label: "My Cart" },
     ],
   },
   {
     title: "Help",
     links: [
-      { href: "/contact", label: "Delivery Info" },
-      { href: "/contact", label: "Returns & Refunds" },
-      { href: "/contact", label: "FAQs" },
-      { href: "/contact", label: "Support" },
+      { href: "/delivery", label: "Delivery Info" },
+      { href: "/returns", label: "Returns & Refunds" },
+      { href: "/faqs", label: "FAQs" },
+      { href: "/support", label: "Support" },
     ],
   },
 ];
 
 export default function Footer() {
   return (
-    <footer className="relative mt-32 border-t border-white/5">
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent" />
-      <div className="section py-20">
+    <footer className="relative mt-24 border-t border-ink/10 bg-bg-soft">
+      <div className="section py-16">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-4">
             <Link
@@ -57,7 +56,7 @@ export default function Footer() {
                 />
               </span>
             </Link>
-            <p className="text-ink/70 max-w-sm leading-relaxed">
+            <p className="text-ink-soft max-w-sm leading-relaxed">
               Your trusted neighborhood grocery store. Fresh produce, quality staples,
               and everyday essentials delivered to your doorstep across Delhi NCR.
             </p>
@@ -67,7 +66,7 @@ export default function Footer() {
                   key={i}
                   href="#"
                   aria-label="social"
-                  className="p-2.5 rounded-full border border-white/10 text-ink/70 hover:text-gold-400 hover:border-gold-500/50 transition-all"
+                  className="p-2.5 rounded-full border border-ink/15 bg-white text-ink-soft hover:text-gold-600 hover:border-gold-500/50 transition-all"
                 >
                   <Icon size={16} />
                 </a>
@@ -77,7 +76,7 @@ export default function Footer() {
 
           {cols.map((col) => (
             <div key={col.title} className="lg:col-span-2">
-              <h4 className="text-xs uppercase tracking-[0.25em] text-gold-400/90 mb-5">
+              <h4 className="text-xs uppercase tracking-[0.25em] text-gold-600 font-semibold mb-5">
                 {col.title}
               </h4>
               <ul className="space-y-3">
@@ -85,7 +84,7 @@ export default function Footer() {
                   <li key={l.label}>
                     <Link
                       href={l.href}
-                      className="text-ink/75 hover:text-gold-300 text-sm transition-colors"
+                      className="text-ink-soft hover:text-gold-700 text-sm transition-colors"
                     >
                       {l.label}
                     </Link>
@@ -96,47 +95,46 @@ export default function Footer() {
           ))}
 
           <div className="lg:col-span-2">
-            <h4 className="text-xs uppercase tracking-[0.25em] text-gold-400/90 mb-5">
+            <h4 className="text-xs uppercase tracking-[0.25em] text-gold-600 font-semibold mb-5">
               Reach Us
             </h4>
-            <ul className="space-y-3 text-sm text-ink/70">
+            <ul className="space-y-3 text-sm text-ink-soft">
               <li className="flex items-start gap-2">
-                <MapPin size={14} className="text-gold-400 mt-0.5 flex-shrink-0" />
+                <MapPin size={14} className="text-gold-600 mt-0.5 flex-shrink-0" />
                 <span>{COMPANY_ADDRESS_LINE}</span>
               </li>
               <li className="flex items-center gap-2">
-                <Phone size={14} className="text-gold-400 flex-shrink-0" />
+                <Phone size={14} className="text-gold-600 flex-shrink-0" />
                 <span>{COMPANY_PHONE}</span>
               </li>
               <li className="flex items-center gap-2">
-                <Mail size={14} className="text-gold-400 flex-shrink-0" />
+                <Mail size={14} className="text-gold-600 flex-shrink-0" />
                 <span>{COMPANY_CONTACT_EMAIL}</span>
               </li>
               <li className="flex items-center gap-2">
-                <Clock size={14} className="text-gold-400 flex-shrink-0" />
+                <Clock size={14} className="text-gold-600 flex-shrink-0" />
                 <span>{COMPANY_WORKING_HOURS}</span>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/5">
-          <div className="flex flex-wrap items-center justify-center gap-4 mb-6 text-[10px] uppercase tracking-widest text-ink/40">
-            <span className="px-3 py-1 rounded-full border border-white/10">UPI</span>
-            <span className="px-3 py-1 rounded-full border border-white/10">Visa</span>
-            <span className="px-3 py-1 rounded-full border border-white/10">Mastercard</span>
-            <span className="px-3 py-1 rounded-full border border-white/10">Rupay</span>
-            <span className="px-3 py-1 rounded-full border border-white/10">Net Banking</span>
-            <span className="px-3 py-1 rounded-full border border-white/10">Razorpay</span>
+        <div className="mt-12 pt-8 border-t border-ink/10">
+          <div className="flex flex-wrap items-center justify-center gap-3 mb-6 text-[10px] uppercase tracking-widest text-ink-mute">
+            {["UPI", "Visa", "Mastercard", "Rupay", "Net Banking", "Razorpay"].map((p) => (
+              <span key={p} className="px-3 py-1 rounded-full border border-ink/12 bg-white">
+                {p}
+              </span>
+            ))}
           </div>
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-ink/50">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-ink-mute">
             <p className="text-center md:text-left">
               © {new Date().getFullYear()} {COMPANY_LEGAL_NAME}. All rights reserved. CIN: U47110DL2020PTC123456
             </p>
             <p className="flex gap-6">
-              <Link href="/contact" className="hover:text-gold-300">Privacy Policy</Link>
-              <Link href="/contact" className="hover:text-gold-300">Terms of Service</Link>
-              <Link href="/contact" className="hover:text-gold-300">Refund Policy</Link>
+              <Link href="/privacy" className="hover:text-gold-700">Privacy Policy</Link>
+              <Link href="/terms" className="hover:text-gold-700">Terms of Service</Link>
+              <Link href="/refund-policy" className="hover:text-gold-700">Refund Policy</Link>
             </p>
           </div>
         </div>

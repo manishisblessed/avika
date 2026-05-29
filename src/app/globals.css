@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 :root {
-  --grain-opacity: 0.04;
   --brand-green: #2e7d32;
   --brand-green-deep: #14532d;
   --brand-orange: #f97316;
@@ -17,17 +16,16 @@
 
 html,
 body {
-  background: #0a1f12;
-  color: #f3efe4;
+  background: #fbfaf6;
+  color: #15241a;
   scroll-behavior: smooth;
 }
 
 body {
   background:
-    radial-gradient(1200px 600px at 80% -10%, rgba(249, 115, 22, 0.14), transparent 60%),
-    radial-gradient(900px 500px at -10% 30%, rgba(46, 125, 50, 0.18), transparent 60%),
-    radial-gradient(1000px 500px at 50% 110%, rgba(46, 125, 50, 0.12), transparent 60%),
-    #0a1f12;
+    radial-gradient(1100px 520px at 85% -10%, rgba(249, 115, 22, 0.10), transparent 60%),
+    radial-gradient(900px 460px at -10% 5%, rgba(46, 125, 50, 0.10), transparent 60%),
+    #fbfaf6;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -38,12 +36,12 @@ body {
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a1f12;
+  background: #f3f1ea;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #f97316, #c2410c);
+  background: linear-gradient(180deg, #f97316, #ea580c);
   border-radius: 8px;
-  border: 2px solid #0a1f12;
+  border: 2px solid #f3f1ea;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #fb923c, #ea580c);
@@ -51,75 +49,37 @@ body {
 
 /* Selection */
 ::selection {
-  background: rgba(249, 115, 22, 0.4);
-  color: #fff;
-}
-
-/* Layered film grain */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 60;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.5'/></svg>");
-  opacity: var(--grain-opacity);
-  mix-blend-mode: overlay;
+  background: rgba(249, 115, 22, 0.25);
+  color: #15241a;
 }
 
 @layer components {
   .glass {
-    background: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.06),
-      rgba(255, 255, 255, 0.02)
-    );
-    backdrop-filter: blur(14px) saturate(160%);
-    -webkit-backdrop-filter: blur(14px) saturate(160%);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.08),
-      0 30px 60px -30px rgba(0, 0, 0, 0.7);
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(8px) saturate(140%);
+    -webkit-backdrop-filter: blur(8px) saturate(140%);
+    border: 1px solid rgba(21, 36, 26, 0.08);
+    box-shadow: 0 10px 30px -16px rgba(21, 36, 26, 0.18);
   }
 
   .glass-strong {
-    background: linear-gradient(
-      135deg,
-      rgba(20, 54, 30, 0.9),
-      rgba(10, 31, 18, 0.78)
-    );
-    backdrop-filter: blur(22px) saturate(180%);
-    -webkit-backdrop-filter: blur(22px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #ffffff;
+    border: 1px solid rgba(21, 36, 26, 0.10);
+    box-shadow: 0 20px 50px -20px rgba(21, 36, 26, 0.22);
   }
 
-  /* `gold-text` is the legacy class name used across pages — it now
-     renders the Avika orange-to-amber gradient instead of gold. */
+  /* `gold-text` is the legacy class name used across pages — renders the
+     Avika orange gradient. Static (no infinite animation) for performance. */
   .gold-text {
-    background: linear-gradient(
-      120deg,
-      #fed7aa 0%,
-      #fb923c 25%,
-      #f97316 50%,
-      #fb923c 75%,
-      #fed7aa 100%
-    );
-    background-size: 200% auto;
+    background: linear-gradient(120deg, #f97316 0%, #ea580c 60%, #c2410c 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    animation: shine 6s linear infinite;
   }
 
-  /* Optional pure-green gradient text, useful for the wordmark. */
   .green-text {
-    background: linear-gradient(
-      120deg,
-      #6fb87b 0%,
-      #2e7d32 50%,
-      #14532d 100%
-    );
+    background: linear-gradient(120deg, #3f9e51 0%, #2e7d32 60%, #14532d 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -187,7 +147,7 @@ body::before {
   }
 
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-medium tracking-wide border border-white/15 text-ink hover:bg-white/5 hover:border-gold-500/50 transition-all;
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-medium tracking-wide border border-ink/20 text-ink bg-white hover:bg-bg-soft hover:border-gold-500/60 transition-all;
   }
 
   .section {
@@ -195,12 +155,12 @@ body::before {
   }
 
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.3em] text-gold-400/90 font-semibold;
+    @apply inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.3em] text-gold-600 font-semibold;
   }
   .eyebrow::before,
   .eyebrow::after {
     content: "";
-    width: 28px;
+    width: 24px;
     height: 1px;
     background: linear-gradient(90deg, transparent, #f97316, transparent);
   }
@@ -209,16 +169,24 @@ body::before {
     @apply font-display tracking-tight;
   }
 
+  .card {
+    @apply bg-bg-card border border-ink/10 rounded-2xl shadow-soft;
+  }
+
+  .pagination-btn {
+    @apply min-w-10 px-4 py-2 text-sm rounded-full border border-ink/10 bg-white text-ink-soft hover:border-gold-500/50 hover:text-ink transition-all;
+  }
+
   .card-hover {
     transition:
-      transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1),
-      box-shadow 0.5s ease,
-      border-color 0.5s ease;
+      transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
+      box-shadow 0.35s ease,
+      border-color 0.35s ease;
   }
   .card-hover:hover {
-    transform: translateY(-6px);
-    border-color: rgba(249, 115, 22, 0.45);
-    box-shadow: 0 30px 70px -20px rgba(249, 115, 22, 0.28);
+    transform: translateY(-4px);
+    border-color: rgba(249, 115, 22, 0.4);
+    box-shadow: 0 24px 50px -24px rgba(21, 36, 26, 0.25);
   }
 }
 
@@ -314,7 +282,7 @@ img[data-nimg] {
   100% { background-position: 200% 0; }
 }
 .skeleton {
-  background: linear-gradient(90deg, rgba(255,255,255,0.02) 25%, rgba(255,255,255,0.08) 50%, rgba(255,255,255,0.02) 75%);
+  background: linear-gradient(90deg, rgba(21,36,26,0.04) 25%, rgba(21,36,26,0.09) 50%, rgba(21,36,26,0.04) 75%);
   background-size: 200% 100%;
   animation: skeleton 1.5s ease-in-out infinite;
 }

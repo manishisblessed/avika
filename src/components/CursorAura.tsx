@@ -1,34 +1,55 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef } from "react";
 
+/**
+ * A soft brand-tinted glow that trails the cursor. Driven entirely through
+ * requestAnimationFrame + direct DOM writes (no React state) so it never
+ * triggers a re-render, and disabled on touch / reduced-motion devices.
+ */
 export default function CursorAura() {
-  const [pos, setPos] = useState({ x: -200, y: -200 });
-  const [enabled, setEnabled] = useState(true);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const isTouch = window.matchMedia("(hover: none)").matches;
-    if (isTouch) {
-      setEnabled(false);
-      return;
-    }
-    const move = (e: MouseEvent) => setPos({ x: e.clientX, y: e.clientY });
-    window.addEventListener("mousemove", move);
-    return () => window.removeEventListener("mousemove", move);
-  }, []);
+    const noHover = window.matchMedia("(hover: none)").matches;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (noHover || reduced) return;
 
-  if (!enabled) return null;
+    const el = ref.current;
+    if (!el) return;
+
+    let raf = 0;
+    let x = -300;
+    let y = -300;
+
+    const onMove = (e: MouseEvent) => {
+      x = e.clientX;
+      y = e.clientY;
+      if (!raf) {
+        raf = requestAnimationFrame(() => {
+          el.style.transform = `translate3d(${x - 210}px, ${y - 210}px, 0)`;
+          raf = 0;
+        });
+      }
+    };
+
+    el.style.opacity = "1";
+    window.addEventListener("mousemove", onMove, { passive: true });
+    return () => {
+      window.removeEventListener("mousemove", onMove);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, []);
 
   return (
     <div
+      ref={ref}
       aria-hidden
-      className="pointer-events-none fixed z-[55] -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] rounded-full opacity-60 mix-blend-screen transition-transform duration-300"
+      className="pointer-events-none fixed left-0 top-0 z-[55] w-[420px] h-[420px] rounded-full opacity-0 hidden lg:block"
       style={{
-        left: pos.x,
-        top: pos.y,
         background:
-          "radial-gradient(circle, rgba(212,175,55,0.18), rgba(212,175,55,0) 60%)",
-        filter: "blur(8px)",
+          "radial-gradient(circle, rgba(249,115,22,0.10), rgba(249,115,22,0) 60%)",
+        transition: "opacity 0.4s ease",
       }}
     />
   );

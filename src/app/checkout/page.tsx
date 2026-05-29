@@ -9,6 +9,7 @@ import { Check, ArrowRight, ArrowLeft, Sparkles, ShieldCheck } from "lucide-reac
 
 import { useCart } from "@/store/cart";
 import { formatPrice, cn } from "@/lib/utils";
+import { productImageSrc } from "@/lib/product-images";
 import { Reveal } from "@/components/Reveal";
 
 declare global {
@@ -123,20 +124,20 @@ export default function CheckoutPage() {
     return (
       <div className="pt-36 pb-24 section">
         <Reveal>
-          <div className="max-w-2xl mx-auto glass rounded-3xl p-12 text-center">
+          <div className="max-w-2xl mx-auto card p-12 text-center">
             <motion.div
               initial={{ scale: 0, rotate: -90 }}
               animate={{ scale: 1, rotate: 0 }}
               transition={{ type: "spring", stiffness: 220, damping: 14 }}
-              className="inline-flex w-20 h-20 rounded-full bg-gradient-to-br from-gold-300 to-gold-700 items-center justify-center text-bg shadow-gold mb-8"
+              className="inline-flex w-20 h-20 rounded-full bg-gradient-to-br from-gold-400 to-gold-600 items-center justify-center text-white shadow-gold mb-8"
             >
               <Check size={32} strokeWidth={3} />
             </motion.div>
-            <h1 className="display text-5xl">
-              Thank you. <span className="gold-text">Wonderfully done.</span>
+            <h1 className="display text-3xl md:text-4xl font-bold text-ink">
+              Thank you. <span className="gold-text">Order placed.</span>
             </h1>
-            <p className="mt-5 text-ink/70 text-lg">
-              Your order is being lovingly wrapped. We'll email a tracking link
+            <p className="mt-5 text-ink-soft text-lg">
+              Your order is being packed. We&apos;ll email a tracking link
               within a few hours.
             </p>
             <div className="mt-10 grid grid-cols-3 gap-4 text-center">
@@ -161,7 +162,7 @@ export default function CheckoutPage() {
       <section className="section">
         <Reveal>
           <span className="eyebrow mb-3">Checkout</span>
-          <h1 className="display text-5xl md:text-6xl mt-5 leading-tight">
+          <h1 className="display text-4xl md:text-5xl font-bold mt-4 leading-tight text-ink">
             Almost <span className="gold-text">yours.</span>
           </h1>
         </Reveal>
@@ -174,25 +175,25 @@ export default function CheckoutPage() {
                 <motion.div
                   animate={{
                     backgroundColor:
-                      i <= step ? "rgba(212,175,55,1)" : "rgba(255,255,255,0.06)",
-                    color: i <= step ? "#1a1404" : "#7a7a72",
+                      i <= step ? "rgba(249,115,22,1)" : "rgba(21,36,26,0.06)",
+                    color: i <= step ? "#ffffff" : "#788379",
                   }}
                   transition={{ duration: 0.4 }}
-                  className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-medium border border-white/10"
+                  className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-medium border border-ink/10"
                 >
                   {i < step ? <Check size={14} strokeWidth={3} /> : i + 1}
                 </motion.div>
                 <span
                   className={cn(
                     "absolute top-11 text-[10px] uppercase tracking-widest whitespace-nowrap",
-                    i === step ? "text-gold-300" : "text-ink/50",
+                    i === step ? "text-gold-700" : "text-ink-mute",
                   )}
                 >
                   {label}
                 </span>
               </div>
               {i < steps.length - 1 && (
-                <div className="flex-1 h-px mx-2 bg-white/10 relative overflow-hidden">
+                <div className="flex-1 h-px mx-2 bg-ink/10 relative overflow-hidden">
                   <motion.div
                     initial={false}
                     animate={{ scaleX: i < step ? 1 : 0 }}
@@ -215,7 +216,7 @@ export default function CheckoutPage() {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -30 }}
                 transition={{ duration: 0.4 }}
-                className="glass rounded-2xl p-8"
+                className="card p-8"
               >
                 {step === 0 && <AddressStep />}
                 {step === 1 && <ShippingStep />}
@@ -248,43 +249,43 @@ export default function CheckoutPage() {
           </div>
 
           <aside className="h-fit lg:sticky lg:top-28">
-            <div className="glass rounded-2xl p-6 space-y-4">
-              <h3 className="font-display text-xl">Order</h3>
+            <div className="card p-6 space-y-4">
+              <h3 className="font-display text-lg font-bold text-ink">Order</h3>
               <ul className="space-y-3 max-h-72 overflow-y-auto pr-2">
                 {items.map(({ product, qty }) => (
                   <li key={product.id} className="flex gap-3">
                     <div className="relative w-14 h-14 rounded-lg overflow-hidden flex-shrink-0">
                       <Image
-                        src={product.images[0]}
+                        src={productImageSrc(product.images)}
                         alt={product.name}
                         fill
                         sizes="56px"
                         className="object-cover"
                       />
-                      <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-gold-500 text-bg text-[10px] font-bold flex items-center justify-center">
+                      <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-gold-500 text-white text-[10px] font-bold flex items-center justify-center">
                         {qty}
                       </span>
                     </div>
                     <div className="flex-1 min-w-0">
                       <p className="text-sm text-ink line-clamp-1">{product.name}</p>
-                      <p className="text-xs text-ink/50">{formatPrice(product.price * qty)}</p>
+                      <p className="text-xs text-ink-mute">{formatPrice(product.price * qty)}</p>
                     </div>
                   </li>
                 ))}
               </ul>
-              <div className="h-px bg-white/10" />
+              <div className="h-px bg-ink/10" />
               <Row label="Subtotal" value={formatPrice(subtotal())} />
               <Row label="Shipping" value={ship === 0 ? "Free" : formatPrice(ship)} />
               <Row label="Tax" value={formatPrice(tax)} />
-              <div className="h-px bg-white/10" />
+              <div className="h-px bg-ink/10" />
               <div className="flex items-baseline justify-between">
-                <span>Total</span>
-                <span className="font-display text-2xl gold-text">
+                <span className="font-medium text-ink">Total</span>
+                <span className="font-display text-2xl font-bold text-ink">
                   {formatPrice(total)}
                 </span>
               </div>
-              <div className="flex items-center gap-2 text-[11px] text-ink/55 pt-2">
-                <ShieldCheck size={14} className="text-gold-400" />
+              <div className="flex items-center gap-2 text-[11px] text-ink-mute pt-2">
+                <ShieldCheck size={14} className="text-gold-600" />
                 Secure 256-bit encryption
               </div>
             </div>
@@ -309,11 +310,11 @@ function Field({
 }) {
   return (
     <label className={cn("block", className)}>
-      <span className="text-xs uppercase tracking-widest text-ink/55">{label}</span>
+      <span className="text-xs uppercase tracking-widest text-ink-mute font-medium">{label}</span>
       <input
         type={type}
         placeholder={placeholder}
-        className="mt-2 w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 placeholder:text-ink/30 focus:outline-none focus:border-gold-500/60 transition-colors"
+        className="mt-2 w-full bg-white border border-ink/15 rounded-xl px-4 py-3 text-ink placeholder:text-ink/40 focus:outline-none focus:border-gold-500 focus:ring-2 focus:ring-gold-500/30 transition-colors"
       />
     </label>
   );
@@ -322,17 +323,17 @@ function Field({
 function Row({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex justify-between text-sm">
-      <span className="text-ink/65">{label}</span>
-      <span className="text-ink">{value}</span>
+      <span className="text-ink-soft">{label}</span>
+      <span className="text-ink font-medium">{value}</span>
     </div>
   );
 }
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-xl border border-white/10 p-4">
-      <p className="text-[10px] uppercase tracking-widest text-ink/50">{label}</p>
-      <p className="mt-1 font-display text-xl text-ink">{value}</p>
+    <div className="card p-4">
+      <p className="text-[10px] uppercase tracking-widest text-ink-mute">{label}</p>
+      <p className="mt-1 font-display text-lg font-bold text-ink">{value}</p>
     </div>
   );
 }
@@ -340,7 +341,7 @@ function Stat({ label, value }: { label: string; value: string }) {
 function AddressStep() {
   return (
     <div className="space-y-5">
-      <h2 className="font-display text-2xl">Delivery Address</h2>
+      <h2 className="font-display text-xl font-bold text-ink">Delivery Address</h2>
       <div className="grid sm:grid-cols-2 gap-4">
         <Field label="First name" placeholder="Rahul" />
         <Field label="Last name" placeholder="Sharma" />
@@ -367,24 +368,24 @@ function ShippingStep() {
   ];
   return (
     <div className="space-y-5">
-      <h2 className="font-display text-2xl">Shipping Method</h2>
+      <h2 className="font-display text-xl font-bold text-ink">Shipping Method</h2>
       <div className="space-y-3">
         {opts.map((o) => (
           <button
             key={o.id}
             onClick={() => setM(o.id)}
             className={cn(
-              "w-full text-left p-5 rounded-xl border flex items-center justify-between transition-all",
+              "w-full text-left p-5 rounded-xl border flex items-center justify-between transition-all bg-white",
               m === o.id
-                ? "border-gold-500/60 bg-gold-500/5"
-                : "border-white/10 hover:border-white/20",
+                ? "border-gold-500 ring-2 ring-gold-500/30"
+                : "border-ink/12 hover:border-gold-500/40",
             )}
           >
             <div>
-              <p className="font-medium">{o.t}</p>
-              <p className="text-xs text-ink/55 mt-1">{o.d}</p>
+              <p className="font-medium text-ink">{o.t}</p>
+              <p className="text-xs text-ink-mute mt-1">{o.d}</p>
             </div>
-            <p className="text-gold-300 text-sm">{o.p}</p>
+            <p className="text-gold-700 text-sm font-medium">{o.p}</p>
           </button>
         ))}
       </div>
@@ -395,25 +396,26 @@ function ShippingStep() {
 function PaymentStep() {
   return (
     <div className="space-y-5">
-      <h2 className="font-display text-2xl">Payment</h2>
+      <h2 className="font-display text-xl font-bold text-ink">Payment</h2>
       <div className="rounded-xl border border-gold-500/30 bg-gold-500/5 p-6 text-center">
-        <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-gold-400/20 to-gold-700/10 border border-gold-500/30 mb-4">
-          <ShieldCheck size={24} className="text-gold-300" />
+        <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gold-500/10 border border-gold-500/30 mb-4">
+          <ShieldCheck size={24} className="text-gold-600" />
         </div>
-        <h3 className="font-display text-xl text-ink">Secure Payment via Razorpay</h3>
-        <p className="text-sm text-ink/60 mt-2 max-w-sm mx-auto">
-          You'll be redirected to Razorpay's secure payment page when you place your order.
+        <h3 className="font-display text-lg font-bold text-ink">Secure Payment via Razorpay</h3>
+        <p className="text-sm text-ink-soft mt-2 max-w-sm mx-auto">
+          You&apos;ll be redirected to Razorpay&apos;s secure payment page when you place your order.
           Pay with UPI, debit/credit card, netbanking, or wallets.
         </p>
-        <div className="flex items-center justify-center gap-4 mt-5 text-[11px] text-ink/50">
-          <span className="px-3 py-1 rounded-full border border-white/10">UPI</span>
-          <span className="px-3 py-1 rounded-full border border-white/10">Cards</span>
-          <span className="px-3 py-1 rounded-full border border-white/10">Netbanking</span>
-          <span className="px-3 py-1 rounded-full border border-white/10">Wallets</span>
+        <div className="flex items-center justify-center gap-3 mt-5 text-[11px] text-ink-mute">
+          {["UPI", "Cards", "Netbanking", "Wallets"].map((p) => (
+            <span key={p} className="px-3 py-1 rounded-full border border-ink/12 bg-white">
+              {p}
+            </span>
+          ))}
         </div>
       </div>
-      <p className="text-[11px] text-ink/50 flex items-center gap-2">
-        <ShieldCheck size={14} className="text-gold-400" />
+      <p className="text-[11px] text-ink-mute flex items-center gap-2">
+        <ShieldCheck size={14} className="text-gold-600" />
         256-bit encrypted · PCI DSS compliant · RBI regulated
       </p>
     </div>
@@ -423,21 +425,21 @@ function PaymentStep() {
 function ReviewStep() {
   return (
     <div className="space-y-5">
-      <h2 className="font-display text-2xl">Review & confirm</h2>
-      <p className="text-ink/65">
-        Everything in order? Tap the button below to place your order. You'll
+      <h2 className="font-display text-xl font-bold text-ink">Review &amp; confirm</h2>
+      <p className="text-ink-soft">
+        Everything in order? Tap the button below to place your order. You&apos;ll
         receive an SMS and email with tracking shortly after.
       </p>
       <div className="grid sm:grid-cols-2 gap-4 mt-4">
-        <div className="rounded-xl border border-white/10 p-4">
-          <p className="text-[10px] uppercase tracking-widest text-ink/50">Deliver to</p>
-          <p className="mt-2 text-ink">Rahul Sharma</p>
-          <p className="text-ink/70 text-sm">B-204, Eros Metro Mall, Dwarka 110075</p>
+        <div className="card p-4">
+          <p className="text-[10px] uppercase tracking-widest text-ink-mute">Deliver to</p>
+          <p className="mt-2 text-ink font-medium">Rahul Sharma</p>
+          <p className="text-ink-soft text-sm">B-204, Eros Metro Mall, Dwarka 110075</p>
         </div>
-        <div className="rounded-xl border border-white/10 p-4">
-          <p className="text-[10px] uppercase tracking-widest text-ink/50">Payment</p>
-          <p className="mt-2 text-ink">Razorpay (UPI / Card / Netbanking)</p>
-          <p className="text-ink/70 text-sm">Pay securely on next step</p>
+        <div className="card p-4">
+          <p className="text-[10px] uppercase tracking-widest text-ink-mute">Payment</p>
+          <p className="mt-2 text-ink font-medium">Razorpay (UPI / Card / Netbanking)</p>
+          <p className="text-ink-soft text-sm">Pay securely on next step</p>
         </div>
       </div>
     </div>

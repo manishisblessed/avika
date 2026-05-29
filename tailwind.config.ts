@@ -5,17 +5,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Deep forest-green base — Avika's primary brand color.
-        // Token name kept as `bg` so existing utilities (bg-bg, bg-bg-card,
-        // from-bg, via-bg, text-bg) continue to work across the codebase.
+        // Bright, grocery-fresh surfaces. `bg` = page background (warm white),
+        // `bg-soft` = subtle section tint, `bg-card` = white cards.
         bg: {
-          DEFAULT: "#0a1f12",
-          soft: "#0f2b18",
-          card: "#14361e",
+          DEFAULT: "#fbfaf6",
+          soft: "#f3f1ea",
+          card: "#ffffff",
         },
-        // `gold` is repurposed to the Avika orange ramp — kept as `gold-*`
-        // so all existing `text-gold-300`, `bg-gold-500`, `shadow-gold`,
-        // `from-gold-400`, `via-gold-500` classes auto-pick up the new accent.
+        // `gold` is the Avika orange accent ramp — kept as `gold-*` so all
+        // existing `text-gold-500`, `bg-gold-500`, `from-gold-400` classes
+        // pick up the brand accent.
         gold: {
           50: "#fff7ed",
           100: "#ffedd5",
@@ -28,12 +27,15 @@ const config: Config = {
           800: "#9a3412",
           900: "#7c2d12",
         },
-        // Warm cream / muted sage text on the green base.
+        // Dark green-charcoal text on light surfaces.
         ink: {
-          DEFAULT: "#f3efe4",
-          soft: "#c8c4b6",
-          mute: "#8a9286",
+          DEFAULT: "#15241a",
+          soft: "#46554b",
+          mute: "#788379",
         },
+        // A reusable dark token for image overlays where light text sits on
+        // top of photography.
+        shade: "#0a1f12",
         // Explicit Avika brand tokens — use these when you need the
         // logo's exact green or orange.
         brand: {
@@ -58,7 +60,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        display: ["var(--font-display)", "serif"],
+        display: ["var(--font-display)", "system-ui", "sans-serif"],
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
       },
       backgroundImage: {
@@ -74,11 +76,12 @@ const config: Config = {
           "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.45'/></svg>\")",
       },
       boxShadow: {
-        gold: "0 10px 40px -10px rgba(249,115,22,0.5)",
-        "gold-sm": "0 4px 18px -4px rgba(249,115,22,0.4)",
-        green: "0 10px 40px -10px rgba(46,125,50,0.45)",
-        glass:
-          "inset 0 1px 0 rgba(255,255,255,0.08), 0 20px 60px -20px rgba(0,0,0,0.65)",
+        gold: "0 10px 30px -10px rgba(249,115,22,0.45)",
+        "gold-sm": "0 4px 14px -4px rgba(249,115,22,0.4)",
+        green: "0 10px 30px -10px rgba(46,125,50,0.4)",
+        soft: "0 10px 30px -16px rgba(21,36,26,0.18)",
+        "soft-lg": "0 24px 50px -24px rgba(21,36,26,0.22)",
+        glass: "0 10px 30px -16px rgba(21,36,26,0.18)",
       },
       keyframes: {
         float: {
