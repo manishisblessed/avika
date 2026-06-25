@@ -55,9 +55,6 @@ export default function ProductCard({
       </Link>
 
       <div className="p-4 flex flex-col flex-1">
-        <p className="text-[10px] uppercase tracking-[0.18em] text-ink-mute">
-          {product.brand}
-        </p>
         <Link href={`/products/${product.id}`}>
           <h3 className="mt-0.5 font-display text-[15px] font-semibold text-ink leading-snug group-hover:text-gold-700 transition-colors line-clamp-2 min-h-[2.6em]">
             {product.name}

@@ -411,7 +411,7 @@ export const products: Product[] = [
       "Full cream pasteurized milk, fresh and nutritious. Perfect for tea, coffee, or drinking straight.",
     features: ["1 litre pack", "Full cream", "Pasteurized", "No preservatives"],
     images: [
-      "/products/fv001.jpg",
+      "/products/de001.jpg",
     ],
     badge: "Bestseller",
     stock: 500,
@@ -429,7 +429,7 @@ export const products: Product[] = [
       "Soft and fresh cottage cheese made from pure milk. Ideal for paneer butter masala, tikka, and more.",
     features: ["200g block", "Made from pure milk", "Soft texture", "High protein"],
     images: [
-      "/products/fv002.jpg",
+      "/products/de002.jpg",
     ],
     badge: "Bestseller",
     stock: 180,
@@ -464,7 +464,7 @@ export const products: Product[] = [
       "Thick and creamy curd made from fresh milk. Perfect for raita, lassi, or direct consumption.",
     features: ["400g cup", "Thick & creamy", "Probiotic rich", "No preservatives"],
     images: [
-      "/products/fv004.jpg",
+      "/products/de004.jpg",
     ],
     stock: 300,
     unit: "400g",
@@ -729,23 +729,6 @@ export const products: Product[] = [
     unit: "200g",
   },
   {
-    id: "de020",
-    name: "Khoya (Mawa)",
-    brand: "Mother Dairy",
-    category: "dairy-eggs",
-    price: 180,
-    rating: 4.7,
-    reviews: 1567,
-    description:
-      "Fresh khoya for making sweets at home. Essential for gulab jamun, peda, and barfi.",
-    features: ["250g pack", "Fresh made", "For sweets", "Pure milk"],
-    images: [
-      "/products/de020.jpg",
-    ],
-    stock: 90,
-    unit: "250g",
-  },
-  {
     id: "de021",
     name: "Probiotic Drink",
     brand: "Yakult",
@@ -757,27 +740,10 @@ export const products: Product[] = [
       "Probiotic fermented milk drink with 6.5 billion live bacteria. Supports gut health daily.",
     features: ["5 bottles pack", "6.5B probiotics", "Gut health", "Daily dose"],
     images: [
-      "/products/fv018.jpg",
+      "/products/de021.jpg",
     ],
     stock: 200,
     unit: "pack",
-  },
-  {
-    id: "de022",
-    name: "Hung Curd",
-    brand: "Mother Dairy",
-    category: "dairy-eggs",
-    price: 55,
-    rating: 4.6,
-    reviews: 1123,
-    description:
-      "Thick hung curd perfect for making dips, marinades, and shrikhand at home.",
-    features: ["200g cup", "Extra thick", "No water content", "Multi-purpose"],
-    images: [
-      "/products/fv019.jpg",
-    ],
-    stock: 160,
-    unit: "200g",
   },
 
   // ===== STAPLES & GRAINS =====
@@ -882,7 +848,7 @@ export const products: Product[] = [
       "Premium split chickpea dal, nutty flavor. Great for dal fry, chana dal, and sweets.",
     features: ["1 kg pack", "Premium quality", "Nutty flavor", "Versatile use"],
     images: [
-      "/products/de007.jpg",
+      "/products/sg006.jpg",
     ],
     stock: 250,
     unit: "kg",
@@ -933,7 +899,7 @@ export const products: Product[] = [
       "Lightweight everyday rice with low starch. Perfect for daily meals, fried rice, and south Indian dishes.",
     features: ["1 kg pack", "Low starch", "Lightweight", "Daily use"],
     images: [
-      "/products/de010.jpg",
+      "/products/sg009.jpg",
     ],
     stock: 400,
     unit: "kg",
@@ -967,7 +933,7 @@ export const products: Product[] = [
       "Fine gram flour for pakoras, besan ladoo, and kadhi. Smooth texture and authentic taste.",
     features: ["500g pack", "Fine texture", "No additives", "Multi-purpose"],
     images: [
-      "/products/de012.jpg",
+      "/products/sg011.jpg",
     ],
     stock: 300,
     unit: "500g",
@@ -984,7 +950,7 @@ export const products: Product[] = [
       "Split urad dal for making dal makhani, idli batter, and dosa. Rich and creamy.",
     features: ["1 kg pack", "Split variety", "Creamy texture", "High protein"],
     images: [
-      "/products/de013.jpg",
+      "/products/sg012.jpg",
     ],
     stock: 200,
     unit: "kg",
@@ -1087,7 +1053,7 @@ export const products: Product[] = [
       "Pure organic jaggery as a healthier alternative to sugar. Rich in iron and minerals.",
     features: ["500g block", "Organic", "Iron rich", "Natural sweetener"],
     images: [
-      "/products/de019.jpg",
+      "/products/sg018.jpg",
     ],
     stock: 200,
     unit: "500g",
@@ -2202,7 +2168,7 @@ export const products: Product[] = [
       "Oral rehydration drink with electrolytes. Essential for summers and recovery.",
     features: ["200ml pack", "With electrolytes", "Orange flavor", "Rehydration"],
     images: [
-      "/products/sg021.jpg",
+      "/products/sb016.jpg",
     ],
     stock: 300,
     unit: "200ml",
@@ -2287,7 +2253,7 @@ export const products: Product[] = [
       "Instant masala chai premix with ginger and cardamom. Just add hot water for quick tea.",
     features: ["500g pack", "Instant premix", "Masala flavor", "Just add water"],
     images: [
-      "/products/co005.jpg",
+      "/products/sb021.jpg",
     ],
     stock: 200,
     unit: "500g",
@@ -2741,7 +2707,7 @@ export const products: Product[] = [
       "Disinfectant floor cleaner that kills 99.9% germs. Keeps floors shiny and germ-free.",
     features: ["975ml bottle", "Kills 99.9% germs", "Fresh fragrance", "All floor types"],
     images: [
-      "/products/fv010.jpg",
+      "/products/he003.jpg",
     ],
     stock: 220,
     unit: "975ml",
@@ -2758,7 +2724,7 @@ export const products: Product[] = [
       "Powerful toilet cleaner that removes tough stains and kills germs below the waterline.",
     features: ["500ml bottle", "10x cleaning power", "Removes stains", "Fresh scent"],
     images: [
-      "/products/fv011.jpg",
+      "/products/he004.jpg",
     ],
     stock: 300,
     unit: "500ml",
@@ -2998,7 +2964,7 @@ export const products: Product[] = [
       "Microfiber mop refill for easy floor cleaning. Super absorbent and machine washable.",
     features: ["1 piece refill", "Microfiber", "Super absorbent", "Washable"],
     images: [
-      "/products/sg005.jpg",
+      "/products/he018.jpg",
     ],
     stock: 100,
     unit: "piece",
@@ -3032,7 +2998,7 @@ export const products: Product[] = [
       "Food-grade aluminium foil for wrapping, baking, and storing food. Tear-resistant and hygienic.",
     features: ["9m roll", "Food grade", "Tear-resistant", "Multi-use"],
     images: [
-      "/products/sg019.jpg",
+      "/products/he020.jpg",
     ],
     stock: 200,
     unit: "9m",
@@ -5021,7 +4987,7 @@ export const products: Product[] = [
       "Juicy and refreshing watermelon, perfect for summer hydration and fruit bowls.",
     features: ["1 piece (~2-3 kg)", "Sweet & juicy", "High water content", "Summer special"],
     images: [
-      "/products/fv002.jpg",
+      "/products/fv024.jpg",
     ],
     stock: 80,
     unit: "piece",
@@ -5059,7 +5025,7 @@ export const products: Product[] = [
       "Probiotic-enriched curd with live cultures for better gut health. Creamy and smooth.",
     features: ["400g cup", "Live cultures", "Gut health", "Smooth texture"],
     images: [
-      "/products/fv020.jpg",
+      "/products/de023.jpg",
     ],
     stock: 160,
     unit: "400g",
@@ -5077,7 +5043,7 @@ export const products: Product[] = [
       "Extra creamy premium paneer with rich malai texture. Perfect for restaurant-style paneer dishes.",
     features: ["250g block", "Extra creamy", "Premium quality", "Soft & fresh"],
     images: [
-      "/products/fv021.jpg",
+      "/products/de024.jpg",
     ],
     badge: "Exclusive",
     stock: 120,
@@ -5095,7 +5061,7 @@ export const products: Product[] = [
       "Double toned milk with 1.5% fat. Lower calorie option for health-conscious families.",
     features: ["1 litre pack", "1.5% fat", "Pasteurized", "Low calorie"],
     images: [
-      "/products/fv022.jpg",
+      "/products/de025.jpg",
     ],
     stock: 400,
     unit: "litre",
@@ -5148,7 +5114,7 @@ export const products: Product[] = [
       "Coarsely ground rice rava for soft and fluffy idlis. No soaking required for instant preparation.",
     features: ["500g pack", "Coarse ground", "No soaking needed", "Soft idlis"],
     images: [
-      "/products/sg001.jpg",
+      "/products/sg025.jpg",
     ],
     stock: 160,
     unit: "500g",
@@ -5205,6 +5171,171 @@ export const products: Product[] = [
       "/products/de014.jpg",
     ],
     stock: 190,
+    unit: "litre",
+  },
+  {
+    id: "co026",
+    name: "Amul Pure Ghee",
+    brand: "Amul",
+    category: "cooking-oils",
+    price: 640,
+    originalPrice: 670,
+    rating: 4.9,
+    reviews: 8765,
+    description:
+      "Pure cow ghee from Amul made with fresh cream. Rich aroma and golden color for authentic Indian cooking.",
+    features: ["1 litre jar", "Made from cream", "Rich aroma", "No preservatives"],
+    images: [
+      "/products/co026.jpg",
+    ],
+    badge: "Bestseller",
+    stock: 150,
+    unit: "litre",
+  },
+  {
+    id: "co027",
+    name: "Fortune Premium Kachi Ghani Mustard Oil",
+    brand: "Fortune",
+    category: "cooking-oils",
+    price: 184,
+    originalPrice: 215,
+    rating: 4.7,
+    reviews: 3456,
+    description:
+      "Premium kachi ghani mustard oil with strong pungent flavor. Perfect for pickles, tadka, and North Indian cooking.",
+    features: ["910g tin", "Kachi Ghani", "Strong aroma", "Cold pressed"],
+    images: [
+      "/products/co027.jpg",
+    ],
+    stock: 220,
+    unit: "910g",
+  },
+  {
+    id: "co028",
+    name: "Fortune Soya Health Refined Soyabean Oil",
+    brand: "Fortune",
+    category: "cooking-oils",
+    price: 150,
+    originalPrice: 170,
+    rating: 4.6,
+    reviews: 4567,
+    description:
+      "Refined soyabean oil enriched with vitamins A & D. Light, healthy and suitable for everyday cooking.",
+    features: ["750g pouch", "Vitamin enriched", "Light & healthy", "All-purpose"],
+    images: [
+      "/products/co028.jpg",
+    ],
+    stock: 300,
+    unit: "750g",
+  },
+  {
+    id: "co029",
+    name: "Fortune Sunlite Refined Sunflower Oil",
+    brand: "Fortune",
+    category: "cooking-oils",
+    price: 175,
+    originalPrice: 205,
+    rating: 4.7,
+    reviews: 5678,
+    description:
+      "Light refined sunflower oil rich in Vitamin E. Keeps your heart healthy with every meal.",
+    features: ["800g pouch", "Vitamin E rich", "Light cooking", "Heart healthy"],
+    images: [
+      "/products/co029.jpg",
+    ],
+    stock: 280,
+    unit: "800g",
+  },
+  {
+    id: "co030",
+    name: "Mother Dairy Ghee",
+    brand: "Mother Dairy",
+    category: "cooking-oils",
+    price: 626,
+    originalPrice: 750,
+    rating: 4.8,
+    reviews: 3210,
+    description:
+      "Pure cow ghee from Mother Dairy with rich taste and aroma. Made from fresh cream using traditional methods.",
+    features: ["1000ml jar", "Pure cow ghee", "Rich taste", "Traditional method"],
+    images: [
+      "/products/co030.jpg",
+    ],
+    stock: 120,
+    unit: "1000ml",
+  },
+  {
+    id: "co031",
+    name: "Nature Fresh Acti Heart Blended Cooking Oil",
+    brand: "Nature Fresh",
+    category: "cooking-oils",
+    price: 971,
+    originalPrice: 1100,
+    rating: 4.5,
+    reviews: 2345,
+    description:
+      "Heart-healthy blended cooking oil with balanced omega fatty acids. Value family pack for daily use.",
+    features: ["5 ltr + 1 ltr free", "Heart healthy", "Balanced omega", "Family pack"],
+    images: [
+      "/products/co031.jpg",
+    ],
+    stock: 80,
+    unit: "6L",
+  },
+  {
+    id: "co032",
+    name: "Organic India Pure Cow Ghee",
+    brand: "Organic India",
+    category: "cooking-oils",
+    price: 634,
+    originalPrice: 899,
+    rating: 4.9,
+    reviews: 1567,
+    description:
+      "Certified organic pure cow ghee made from grass-fed cow milk. Hand-churned using traditional bilona method.",
+    features: ["500ml jar", "Organic certified", "Grass-fed", "Bilona method"],
+    images: [
+      "/products/co032.jpg",
+    ],
+    badge: "Exclusive",
+    stock: 60,
+    unit: "500ml",
+  },
+  {
+    id: "co033",
+    name: "Paras Desi Ghee",
+    brand: "Paras",
+    category: "cooking-oils",
+    price: 567,
+    originalPrice: 720,
+    rating: 4.7,
+    reviews: 2890,
+    description:
+      "Pure desi ghee with authentic taste and granular texture. Perfect for sweets, halwa, and daily cooking.",
+    features: ["900ml jar", "Desi ghee", "Granular texture", "Authentic taste"],
+    images: [
+      "/products/co033.jpg",
+    ],
+    stock: 100,
+    unit: "900ml",
+  },
+  {
+    id: "co034",
+    name: "Tata Simply Better Cold Pressed Avocado Oil",
+    brand: "Tata Simply Better",
+    category: "cooking-oils",
+    price: 1207,
+    originalPrice: 1350,
+    rating: 4.6,
+    reviews: 678,
+    description:
+      "Premium cold-pressed avocado oil with high smoke point. Rich in healthy monounsaturated fats and antioxidants.",
+    features: ["1 litre bottle", "Cold pressed", "High smoke point", "Keto friendly"],
+    images: [
+      "/products/co034.jpg",
+    ],
+    badge: "Exclusive",
+    stock: 40,
     unit: "litre",
   },
 
