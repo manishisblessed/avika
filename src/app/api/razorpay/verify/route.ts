@@ -28,6 +28,8 @@ export async function POST(req: Request) {
       );
     }
 
+    let dbOrderId: string | null = null;
+
     const session = await getServerSession(authOptions);
 
     if (session?.user?.email && orderData) {
@@ -36,7 +38,7 @@ export async function POST(req: Request) {
       });
 
       if (user) {
-        await prisma.order.create({
+        const order = await prisma.order.create({
           data: {
             userId: user.id,
             items: JSON.stringify(orderData.items || []),
@@ -50,10 +52,15 @@ export async function POST(req: Request) {
             address: orderData.address || null,
           },
         });
+        dbOrderId = order.id;
       }
     }
 
-    return NextResponse.json({ verified: true, paymentId: razorpay_payment_id });
+    return NextResponse.json({
+      verified: true,
+      paymentId: razorpay_payment_id,
+      dbOrderId,
+    });
   } catch (error: unknown) {
     console.error("Payment verification error:", error);
     return NextResponse.json(

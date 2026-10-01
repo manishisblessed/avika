@@ -1,14 +1,16 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { signIn } from "next-auth/react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Mail, Lock, User, Phone, ArrowRight, Eye, EyeOff } from "lucide-react";
 
-export default function SignupPage() {
+function SignupForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const callbackUrl = searchParams.get("callbackUrl") || "/account";
   const [form, setForm] = useState({ name: "", email: "", phone: "", password: "" });
   const [showPw, setShowPw] = useState(false);
   const [error, setError] = useState("");
@@ -53,7 +55,7 @@ export default function SignupPage() {
     if (signInRes?.error) {
       setError("Account created but sign-in failed. Please try logging in.");
     } else {
-      router.push("/account");
+      router.push(callbackUrl);
       router.refresh();
     }
   };
@@ -166,7 +168,7 @@ export default function SignupPage() {
 
             <p className="text-center text-sm text-ink-soft">
               Already have an account?{" "}
-              <Link href="/login" className="text-gold-700 hover:text-gold-800 font-medium transition-colors">
+              <Link href={`/login${callbackUrl !== "/account" ? `?callbackUrl=${encodeURIComponent(callbackUrl)}` : ""}`} className="text-gold-700 hover:text-gold-800 font-medium transition-colors">
                 Sign in
               </Link>
             </p>
@@ -174,5 +176,19 @@ export default function SignupPage() {
         </motion.div>
       </section>
     </div>
+  );
+}
+
+export default function SignupPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="pt-36 pb-24 min-h-screen flex items-center justify-center">
+          <div className="w-8 h-8 rounded-full border-2 border-gold-500 border-t-transparent animate-spin" />
+        </div>
+      }
+    >
+      <SignupForm />
+    </Suspense>
   );
 }
